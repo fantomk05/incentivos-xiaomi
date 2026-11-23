@@ -1,0 +1,3452 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta property="og:title" content="Calculadora de Incentivos e Inventario Xiaomi">
+<meta property="og:description" content="Control diario de ventas, cálculo automático con tope 150%, inventario por SKU y fotos de tickets.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#09090B">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Incentivos Mi">
+<title>Incentivos e Inventario Xiaomi Nov 2026</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Crect%20width%3D%27100%27%20height%3D%27100%27%20fill%3D%27%23111114%27%2F%3E%3Cpath%20d%3D%27M20%2032H52C60%2032%2065%2037%2065%2045V68H55V45.5C55%2042.5%2053.5%2041%2050.5%2041H30V68H20V32ZM37.5%2048H47.5V68H37.5V48ZM71%2032H81V68H71V32Z%27%20fill%3D%27%23FF6900%27%2F%3E%3C%2Fsvg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAHTUlEQVR4AeyZsa4cRRBFRwYHNhLIlkVE7AghRAoRIRLE/AJfQODYgb+AXyCGnMiWiBASjoiJLGREgB2AZV7L8uq99a6md7a6+lbVQQx6uzPTfevcOd63+NqtW3decsCg6jNwbeEfCBQmgACFy2f0ZUEAnoLSBBCgdP0MX1gAyocAvwLxDBQnwCdA8Qeg+vgIUP0JKD4/AhR/AKqPjwAVnwBm3hFAgB0KfqhIAAEqts7MOwIIsEPBDxUJIEDF1pl5RwABdij4oQKB/RkRYJ8Ir0sRQIBSdTPsPgEE2CfC61IEEKBU3Qy7TwAB9onwuhSBQgKU6pVhOwkgQCcoLstJAAFy9spUnQQQoBMUl+UkgAA5e2WqTgII0Akq9GWEP0oAAY6i4UQFAghQoWVmPEoAAY6i4UQFAghQoWVmPEoAAY6i4UQGAmszIMAaIc6nJoAAqetluDUCCLBGiPOpCSBA6noZbo0AAqwR4nxqAokFSN0bwxkRQAAjkCwTkwACxOyN1EYEEMAIJMvEJIAAMXsjtREBBDACKbUMYboJIEA3Ki7MSAABMrbKTN0EEKAbFRdmJIAAGVtlpm4CCNCNigsjEDg1IwKcSozrUxFAgFR1MsypBBDgVGJcn4oAAqSqk2FOJYAApxLj+lQEEgmQqheGcSKAAE6g2UaTAAJo9kIqJwII4ASabTQJIIBmL6RyIoAATqCHbsPimwkgwGZ03JiBAAJkaJEZNhOQFeDT9/9dvv3wWdmjzX/52NzwmTfe/+Sfxeq499GzM9PY3y4rwGfFBfjx87+Xy8fTr/9cfrh4r/2h0MSwfxQOr/jBjRfLN3efmxyHd5j7rqwAc7Fo7v76D4UmxmshPGVQpHJuJgQ4l+DE+5sQTYb2yYAI24pAgG3cpO66LIJUsABhECBASb0Rmwh8GvTSenUdArzikOa/TYL2a1H7spxmqIGDIMBAuDOXbgLwvWC9gcACrA9X/Yr2SVCdwdr8CLBGKPj59kkQfISh8RFgKN75izcB2jE/iWYCBNDsxTQVAhzHiQDH2aQ6gwSH60SAw1y03yWdGQEEMEOpvVD7BOB/i77ZEQK8ySTtO+0vydIOt3EwBNgIjttyECgjwMMn1xflw+Nxar8GeewTaY8SAjx4fHP56qf3pI/b399Z2vHlRc4m6qiHKPr3AGsuJQSwhjZyvUcXn1RN1lEi8D3gansIcJWHzKsmQvvkkgmUNAgCCBeLBOPLQYDxjM/agU+Bs/Ct3owAq4jmX2D5pZgvwVf7DCTA1eCVXrVfhSrN6zkrAnjSZi85AgggVwmBPAkggCdt9pIjgABylRDIkwACeNLeuhf3DSOAAMPQsnAEAgiw0tLPX/y1WB0f3/5vZTdOexNAgBXid999sVgdK1txegIBBJgAnS11CCCAThckOUBg9FsIMJow60sTQADpegg3mgACjCbM+tIEEEC6HsKNJoAAowmzvjQBYQGkuREuCQEESFIkY2wjgADbuHFXEgIIkKRIxthGAAG2ceOuJAQQQLFIMrkRQAA31GykSAABFFshkxsBBHBDzUaKBBBAsRUyuRFAADfUbNRDwPsaBPAmzn5SBBBAqg7CeBNAAG/i7CdFAAGk6iCMNwEE8CbOflIEhASQ4kKYIgQQoEjRjHmYAAIc5sK7RQggQJGiGfMwAQQ4zIV3ixBAAIWiyTCNAAJMQ8/GCgQQQKEFMkwjgADT0LOxAgEEUGiBDNMIIMA09GzcCMw+EGB2A5X2f6k3LALodUIiRwKyAjx8cn158PimydHW2sr0u99vLFbH1gwtvxWLRxdcT8nxx/O3ps9/St5Tr5UVoBU1q/TLEO/98s5idfz69O3LS3f/bMmiMe3e+OJCq9nbOvd/u3mxota/sgJoYSJNVgITBciKlLkiEUCASG2R1ZwAApgjZcFIBBAgUltkNSeAAOZIWTASAQSY0RZ7yhBAAJkqCDKDAALMoM6eMgQQQKYKgswggAAzqLOnDAEEkKmiRhC1KRFArRHyuBJAAFfcbKZGAAHUGiGPKwEEcMXNZmoEEECtEfK4EnAUwHUuNoNAFwEE6MLERVkJIEDWZpmriwACdGHioqwEECBrs8zVRQABujCdeRG3yxJAANlqCOZBAAE8KLOHLAEEkK2GYB4EEMCDMnvIEkAA2WpyBFOfAgHUGyLfUAIIMBQvi6sTQAD1hsg3lAACDMXL4uoEEEC9IfINJTBQgKG5WRwCJgQQwAQji0QlgABRmyO3CQEEMMHIIlEJIEDU5shtQgABTDDuLcLLMAQQIExVBB1BAAFGUGXNMAQQIExVBB1BAAFGUGXNMAQQIExVMYJGS4kA0RojrykBBDDFyWLRCCBAtMbIa0oAAUxxslg0AggQrTHymhIwFMA0F4tBwIUAArhgZhNVAgig2gy5XAgggAtmNlElgACqzZDLhQACWGBmjbAEECBsdQS3IIAAFhRZIywBBAhbHcEtCCCABUXWCEsAAcJWpxE8eor/AQAA//+ZX0NiAAAABklEQVQDAH9e4m4lXgUvAAAAAElFTkSuQmCC">
+<link rel="manifest" id="pwaManifest" href="blob:null/c37240d6-f08b-4c0e-9092-cda1ecf033b9">
+<style>
+  :root {
+    --bg: #09090B;
+    --card: #121215;
+    --card2: #1A1A1F;
+    --border: #27272A;
+    --orange: #FF6900;
+    --orange-glow: rgba(255, 105, 0, 0.35);
+    --orange-soft: rgba(255, 105, 0, 0.14);
+    --text: #F4F4F5;
+    --muted: #A1A1AA;
+    --green: #10B981;
+    --red: #EF4444;
+    --blue: #38BDF8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  button, label, .day-pill, .cat-pill, .tab-btn, .btn-step, .btn-inv, .btn-install, .ticket-thumb {
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: calc(88px + env(safe-area-inset-bottom));
+    line-height: 1.35;
+    overflow-x: hidden;
+  }
+
+  /* Animations */
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes popScale {
+    0% { transform: scale(1); }
+    45% { transform: scale(1.14); }
+    100% { transform: scale(1); }
+  }
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 4px 14px rgba(255, 105, 0, 0.32); }
+    50% { box-shadow: 0 4px 22px rgba(255, 105, 0, 0.65); }
+  }
+  .anim-enter { animation: fadeSlideUp 0.28s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .pop { animation: popScale 0.24s ease-out; }
+
+  .header {
+    position: sticky; top: 0; z-index: 30;
+    background: rgba(9, 9, 11, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 14px;
+  }
+  .header-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .mi-logo {
+    width: 36px; height: 36px; border-radius: 10px;
+    background: var(--orange); color: #fff;
+    font-weight: 900; font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    animation: pulseGlow 3s infinite ease-in-out;
+  }
+  .brand h1 { font-size: 16px; font-weight: 800; letter-spacing: -0.2px; }
+  .brand p { font-size: 11px; color: var(--muted); }
+  .btn-install {
+    background: var(--orange-soft); border: 1px solid var(--orange);
+    color: var(--orange); font-size: 11px; font-weight: 700;
+    padding: 6px 10px; border-radius: 8px; cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .btn-install:active { transform: scale(0.95); }
+
+  .hero-grid {
+    display: grid; grid-template-columns: 1.3fr 1fr; gap: 8px; margin-top: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .container { max-width: 960px; padding: 18px 22px; }
+    .hero-val { font-size: 32px; }
+    #productsList { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    #productsList .prod-card { margin-bottom: 0; }
+    #inventoryList .inv-model-card { padding: 14px 16px; }
+  }
+  .hero-main {
+    background: linear-gradient(135deg, #21140B 0%, #121215 100%);
+    border: 1px solid rgba(255,105,0,0.45);
+    border-radius: 12px; padding: 10px 12px;
+    transition: border-color 0.25s ease;
+  }
+  .hero-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--orange); font-weight: 700; }
+  .hero-val { font-size: 26px; font-weight: 900; color: #fff; margin-top: 2px; display: inline-block; }
+  .hero-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .hero-side {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 10px 12px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .stat-row { display: flex; justify-content: space-between; font-size: 11px; }
+  .stat-row span:first-child { color: var(--muted); }
+  .stat-row span:last-child { font-weight: 700; }
+  .orange { color: var(--orange); }
+  .green { color: var(--green); }
+  .red { color: var(--red); }
+  .blue { color: var(--blue); }
+
+  .container { max-width: 780px; margin: 0 auto; padding: 12px 14px; }
+
+  /* Tabs - 5 tabs including Inventario */
+  .tabs {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 3px;
+    background: var(--card); padding: 5px; border-radius: 12px;
+    border: 1px solid var(--border); margin-bottom: 12px;
+  }
+  .tab-btn {
+    background: transparent; border: none; color: var(--muted);
+    font-size: 10px; font-weight: 700; padding: 8px 2px; border-radius: 8px;
+    cursor: pointer; transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .tab-btn.active {
+    background: var(--orange); color: #fff;
+    box-shadow: 0 2px 10px rgba(255,105,0,0.4);
+    transform: translateY(-1px);
+  }
+
+  /* Controls bar */
+  .controls-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 10px 12px; margin-bottom: 12px;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+  }
+  .ctrl-group label { display: block; font-size: 10px; color: var(--muted); margin-bottom: 4px; font-weight: 600; }
+  .ctrl-group input, .ctrl-group select {
+    width: 100%; background: var(--card2); border: 1px solid var(--border);
+    color: #fff; padding: 7px 8px; border-radius: 8px; font-size: 13px; font-weight: 700;
+    transition: border-color 0.2s;
+  }
+  .ctrl-group input:focus, .ctrl-group select:focus { outline: none; border-color: var(--orange); }
+
+  /* Days strip */
+  .days-wrap {
+    display: flex; gap: 6px; overflow-x: auto; padding-bottom: 8px; margin-bottom: 10px;
+    scrollbar-width: none;
+  }
+  .days-wrap::-webkit-scrollbar { display: none; }
+  .day-pill {
+    min-width: 44px; height: 52px; border-radius: 10px;
+    background: var(--card); border: 1px solid var(--border);
+    color: var(--text); display: flex; flex-direction: column;
+    align-items: center; justify-content: center; cursor: pointer; flex-shrink: 0;
+    transition: transform 0.16s ease, background 0.2s ease, border-color 0.2s ease;
+  }
+  .day-pill:active { transform: scale(0.92); }
+  .day-pill.has-sales { border-color: rgba(255,105,0,0.45); }
+  .day-pill.active {
+    background: var(--orange); border-color: var(--orange); color: #fff;
+    box-shadow: 0 3px 10px rgba(255,105,0,0.35);
+    transform: translateY(-2px);
+  }
+  .day-pill .d-num { font-size: 14px; font-weight: 800; }
+  .day-pill .d-cnt { font-size: 10px; opacity: 0.85; }
+
+  /* Search & filters */
+  .filter-bar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+  .search-input {
+    width: 100%; background: var(--card); border: 1px solid var(--border);
+    color: #fff; padding: 10px 12px; border-radius: 10px; font-size: 13px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .search-input:focus { outline: none; border-color: var(--orange); box-shadow: 0 0 0 3px rgba(255,105,0,0.15); }
+  .cat-pills { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; }
+  .cat-pills::-webkit-scrollbar { display: none; }
+  .cat-pill {
+    background: var(--card); border: 1px solid var(--border); color: var(--muted);
+    padding: 6px 11px; border-radius: 20px; font-size: 11px; font-weight: 700;
+    white-space: nowrap; cursor: pointer; transition: all 0.18s ease;
+  }
+  .cat-pill:active { transform: scale(0.94); }
+  .cat-pill.active { background: var(--orange-soft); border-color: var(--orange); color: var(--orange); }
+
+  /* Product cards */
+  .prod-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 10px 12px; margin-bottom: 8px;
+    transition: transform 0.18s ease, border-color 0.22s ease, background 0.22s ease;
+  }
+  .prod-card.active-sale { border-color: rgba(255,105,0,0.55); background: #161311; }
+  .prod-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .prod-name { font-size: 13px; font-weight: 700; }
+  .prod-badge {
+    font-size: 10px; padding: 2px 6px; border-radius: 5px; font-weight: 700;
+    background: var(--card2); color: var(--muted); white-space: nowrap;
+  }
+  .prod-rates { font-size: 11px; color: var(--muted); margin-top: 3px; }
+  .steppers { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+  .steppers.single { grid-template-columns: 1fr; }
+  .stepper-box {
+    background: var(--card2); border: 1px solid var(--border);
+    border-radius: 9px; padding: 6px 8px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .stepper-lbl { font-size: 11px; font-weight: 700; color: var(--muted); }
+  .stepper-ctrl { display: flex; align-items: center; gap: 8px; }
+  .btn-step {
+    width: 28px; height: 28px; border-radius: 7px; border: none;
+    background: #27272A; color: #fff; font-size: 16px; font-weight: 800; cursor: pointer;
+    transition: transform 0.12s ease, background 0.15s ease;
+  }
+  .btn-step:active { transform: scale(0.84); }
+  .btn-step.plus { background: var(--orange); }
+  .step-val { min-width: 18px; text-align: center; font-size: 14px; font-weight: 800; }
+
+  /* Inventory Cards & Summary */
+  .inv-summary-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 12px;
+  }
+  .inv-kpi {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 8px 6px; text-align: center;
+  }
+  .inv-kpi .k-lbl { font-size: 10px; color: var(--muted); font-weight: 700; }
+  .inv-kpi .k-val { font-size: 16px; font-weight: 900; margin-top: 2px; }
+  .inv-model-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 11px 12px; margin-bottom: 10px;
+  }
+  .inv-model-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border); margin-bottom: 8px;
+  }
+  .inv-color-row {
+    padding: 7px 0; border-bottom: 1px dashed rgba(255,255,255,0.06);
+  }
+  .inv-color-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .inv-color-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .inv-channels { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .inv-channels.single { grid-template-columns: 1fr; }
+  .inv-ch-box {
+    background: var(--card2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 5px 6px;
+  }
+  .inv-ch-head { display: flex; justify-content: space-between; font-size: 9px; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
+  .inv-sku { font-family: monospace; font-size: 9px; color: #71717A; display: block; margin-top: 3px; text-align: center; }
+  .inv-ctrl { display: flex; justify-content: space-between; align-items: center; }
+  .btn-inv {
+    width: 24px; height: 24px; border-radius: 6px; border: none;
+    background: #27272A; color: #fff; font-size: 14px; font-weight: 800; cursor: pointer;
+    transition: transform 0.12s;
+  }
+  .btn-inv:active { transform: scale(0.85); }
+  .btn-inv.plus { background: var(--orange); }
+
+  /* Tables */
+  .table-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden; margin-bottom: 12px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  th { background: var(--card2); color: var(--muted); text-align: left; padding: 9px 10px; font-size: 11px; }
+  td { padding: 8px 10px; border-top: 1px solid var(--border); }
+  tr.highlight-row { background: rgba(255,105,0,0.08); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .rate-input {
+    width: 58px; background: var(--card2); border: 1px solid var(--border);
+    color: #fff; padding: 4px 6px; border-radius: 6px; text-align: right; font-size: 12px; font-weight: 700;
+  }
+
+
+  /* Ticket Photos Section */
+  .tickets-box {
+    background: var(--card); border: 1px dashed rgba(255,105,0,0.45);
+    border-radius: 12px; padding: 10px 12px; margin-bottom: 12px;
+  }
+  .tickets-head {
+    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  }
+  .btn-ticket-add {
+    background: var(--orange-soft); border: 1px solid var(--orange);
+    color: var(--orange); font-size: 11px; font-weight: 700;
+    padding: 6px 10px; border-radius: 8px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 5px;
+    transition: transform 0.15s ease;
+  }
+  .btn-ticket-add:active { transform: scale(0.94); }
+  .tickets-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+    gap: 8px; margin-top: 10px;
+  }
+  .ticket-thumb {
+    position: relative; border-radius: 9px; overflow: hidden;
+    border: 1px solid var(--border); background: var(--card2);
+    aspect-ratio: 3/4; cursor: pointer;
+    animation: fadeSlideUp 0.22s ease;
+  }
+  .ticket-thumb img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+  }
+  .ticket-tag {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    background: rgba(9,9,11,0.85); color: #fff;
+    font-size: 9px; font-weight: 700; padding: 3px 4px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .ticket-del {
+    position: absolute; top: 4px; right: 4px;
+    width: 20px; height: 20px; border-radius: 50%;
+    background: rgba(239,68,68,0.92); color: #fff; border: none;
+    font-size: 12px; font-weight: 900; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lightbox-img {
+    width: 100%; max-height: 68vh; object-fit: contain;
+    border-radius: 10px; background: #000; margin-bottom: 10px;
+  }
+
+  /* Modal */
+  .modal-bg {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.82); z-index: 50;
+    display: none; align-items: center; justify-content: center; padding: 16px;
+  }
+  .modal-bg.open { display: flex; animation: fadeSlideUp 0.2s ease; }
+  .modal-box {
+    background: var(--card); border: 1px solid var(--orange);
+    border-radius: 16px; padding: 18px; max-width: 400px; width: 100%;
+  }
+  .modal-box h3 { font-size: 16px; color: var(--orange); margin-bottom: 8px; }
+  .modal-box p, .modal-box li { font-size: 13px; color: var(--text); margin-bottom: 8px; }
+  .modal-box ol { padding-left: 18px; }
+  .btn-primary {
+    width: 100%; background: var(--orange); color: #fff; border: none;
+    padding: 10px; border-radius: 10px; font-weight: 800; font-size: 13px; cursor: pointer; margin-top: 6px;
+  }
+  .btn-secondary {
+    width: 100%; background: var(--card2); color: var(--muted); border: 1px solid var(--border);
+    padding: 9px; border-radius: 10px; font-weight: 700; font-size: 12px; cursor: pointer; margin-top: 8px;
+  }
+  /* Splash Screen (Pantalla de Inicio Xiaomi x Leica Negro y Naranja) */
+  @keyframes splashLogoPulse {
+    0% { opacity: 0; transform: scale(0.86); }
+    60% { opacity: 1; transform: scale(1.03); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  @keyframes splashBarLoad {
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+  #appSplashScreen {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: radial-gradient(circle at center, #18100A 0%, #070709 75%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    transition: opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.48s ease;
+  }
+  #appSplashScreen.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .splash-logos-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    animation: splashLogoPulse 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .splash-divider {
+    width: 2px;
+    height: 54px;
+    background: linear-gradient(180deg, transparent, #FF6900, transparent);
+    border-radius: 2px;
+  }
+  .splash-title {
+    margin-top: 22px;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: #FF6900;
+    text-align: center;
+  }
+  .splash-sub {
+    margin-top: 6px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #A1A1AA;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .splash-loader-track {
+    width: 170px;
+    height: 4px;
+    background: #1A1A1F;
+    border-radius: 99px;
+    overflow: hidden;
+    margin-top: 26px;
+    border: 1px solid rgba(255, 105, 0, 0.25);
+  }
+  .splash-loader-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #FF6900, #FF9E44);
+    border-radius: 99px;
+    animation: splashBarLoad 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+</style>
+<script id="embeddedStateSnapshot">window.__EMBEDDED_STATE__ = {"calYear":2026,"calMonth":10,"selectedDay":1,"filter":"phone","invFilter":"all","quota":82,"chain":"liverpool","padFactor":1.5,"calcMode":"reach","minUnlockPct":90,"applyCap150":true,"prioritizeHighComm":true,"unitsFactor":1,"reachScale":{"10":1,"20":1,"30":1,"40":1,"50":1,"60":1,"70":1,"80":1,"90":1,"100":1.2,"110":1.2,"120":1.3,"130":1.5},"customRates":{},"customPrices":{},"customModels":[],"hiddenModels":[],"sales":{"1":{"aiot_rw6":{"L":0},"aiot_rw6l":{"L":0},"aiot_ws5":{"L":0},"aiot_buds8p":{"L":0},"aiot_buds8l":{"L":0}},"2":{},"3":{},"4":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"13":{},"14":{},"15":{},"16":{},"17":{},"18":{}},"inventory":[{"id":"inv_x17tp","model":"XIAOMI 17T PRO","cat":"phone","variants":[{"color":"NEGRO","telcel":0,"skuT":"1204490089","libre":0,"skuL":"1199640671","att":0,"skuA":"1203379613"},{"color":"AZUL TITAN","telcel":0,"skuT":"1204490062","libre":0,"skuL":"11996406625","att":0,"skuA":"-"},{"color":"VIOLETA","telcel":0,"skuT":"1204490071","libre":0,"skuL":"1199640689","att":0,"skuA":"-"}]},{"id":"inv_x17t","model":"XIAOMI 17T","cat":"phone","variants":[{"color":"NEGRO","telcel":0,"skuT":"-","libre":0,"skuL":"1199640751","att":0,"skuA":"1203400612"},{"color":"ROSA","telcel":0,"skuT":"-","libre":0,"skuL":"1199640760","att":0,"skuA":"-"},{"color":"AZUL","telcel":0,"skuT":"-","libre":0,"skuL":"1199640743","att":0,"skuA":"1203402526"}]},{"id":"inv_rn17pm","model":"REDMI NOTE 17 PRO MAX","cat":"phone","variants":[{"color":"NEGRO","telcel":0,"skuT":"-","libre":0,"skuL":"-","att":0,"skuA":"-"},{"color":"MORADO","telcel":0,"skuT":"1210261172","libre":0,"skuL":"-","att":0,"skuA":"-"},{"color":"BLANCO","telcel":0,"skuT":"1210261164","libre":0,"skuL":"-","att":0,"skuA":"-"}]},{"id":"inv_rn17p","model":"REDMI NOTE 17 PRO 5G","cat":"phone","variants":[{"color":"AZUL","telcel":0,"skuT":"1210007314","libre":0,"skuL":"1207415274","att":0,"skuA":"-"},{"color":"NEGRO","telcel":0,"skuT":"-","libre":0,"skuL":"1207415266","att":0,"skuA":"-"},{"color":"MORADO","telcel":0,"skuT":"1210014221","libre":0,"skuL":"1207415282","att":0,"skuA":"-"}]},{"id":"inv_rn17","model":"REDMI NOTE 17","cat":"phone","variants":[{"color":"AZUL","telcel":0,"skuT":"1209863428","libre":0,"skuL":"1207415410","att":0,"skuA":"-"},{"color":"NEGRO","telcel":0,"skuT":"1209815814","libre":0,"skuL":"1207415622","att":0,"skuA":"1210261440"},{"color":"VIOLETA","telcel":0,"skuT":"1209863436","libre":0,"skuL":"1207415631","att":0,"skuA":"1210261458"}]},{"id":"inv_r17","model":"REDMI 17","cat":"phone","variants":[{"color":"NEGRO","telcel":0,"skuT":"1209886037","libre":0,"skuL":"1207006196","att":0,"skuA":"1208054356"},{"color":"VERDE","telcel":0,"skuT":"1209886053","libre":0,"skuL":"1207006188","att":0,"skuA":"1208054364"},{"color":"AZUL","telcel":0,"skuT":"1209886045","libre":0,"skuL":"1207006170","att":0,"skuA":"-"}]},{"id":"inv_ra7p","model":"REDMI A7 PRO 128GB","cat":"phone","variants":[{"color":"NEGRO","telcel":0,"skuT":"1204490381","libre":0,"skuL":"1199977187","att":0,"skuA":"1204812272"},{"color":"VERDE","telcel":0,"skuT":"1204490402","libre":0,"skuL":"1199977195","att":0,"skuA":"-"},{"color":"AZUL","telcel":0,"skuT":"1204490399","libre":0,"skuL":"-","att":0,"skuA":"1204812281"}]},{"id":"inv_buds8p","model":"REDMI BUDS 8 PRO","cat":"aiot","variants":[{"color":"AZUL CLARO","qty":0,"sku":"1196971463"},{"color":"BLANCO","qty":0,"sku":"1196971455"},{"color":"NEGRO","qty":0,"sku":"1196971447"}]},{"id":"inv_buds8l","model":"REDMI BUDS 8 LITE","cat":"aiot","variants":[{"color":"AZUL","qty":0,"sku":"-"},{"color":"BLANCO","qty":0,"sku":"1192479149"},{"color":"NEGRO","qty":0,"sku":"1192479131"}]},{"id":"inv_rw6","model":"REDMI WATCH 6","cat":"aiot","variants":[{"color":"AZUL CLARO","qty":0,"sku":"-"},{"color":"BLANCO","qty":0,"sku":"-"},{"color":"NEGRO","qty":0,"sku":"-"}]},{"id":"inv_rw6l","model":"REDMI WATCH 6 LITE 50MM","cat":"aiot","variants":[{"color":"GRIS","qty":0,"sku":"1206133186"},{"color":"NEGRO","qty":0,"sku":"1206133194"}]},{"id":"inv_ws5","model":"XIAOMI WATCH S5 46MM","cat":"aiot","variants":[{"color":"NEGRO","qty":0,"sku":"1200266257"},{"color":"VERDE","qty":0,"sku":"1200216624"}]}],"cloudSyncUrl":"","cloudSyncKey":"xiaomi-nov2026","salesByMonth":{"2026-11":{"1":{"aiot_rw6":{"L":0},"aiot_rw6l":{"L":0},"aiot_ws5":{"L":0},"aiot_buds8p":{"L":0},"aiot_buds8l":{"L":0}},"2":{},"3":{},"4":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"13":{},"14":{},"15":{},"16":{},"17":{},"18":{}},"2026-12":{}}};</script>
+</head>
+<body>
+<!-- PANTALLA DE INICIO (SPLASH SCREEN XIAOMI x LEICA NEGRO Y NARANJA) -->
+<div id="appSplashScreen" onclick="dismissSplashScreen()" class="">
+  <div class="splash-logos-row">
+    <!-- Logo Xiaomi Negro y Naranja -->
+    <svg width="86" height="86" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 8px 24px rgba(255,105,0,0.42));">
+      <path d="M50 2C85 2 98 15 98 50C98 85 85 98 50 98C15 98 2 85 2 50C2 15 15 2 50 2Z" fill="#0B0B0E" stroke="#FF6900" stroke-width="4.5"></path>
+      <path d="M22 33H52C59.5 33 64 37.5 64 45V67H54.5V45.5C54.5 42.8 53 41.5 50 41.5H31.5V67H22V33ZM38.5 48H48V67H38.5V48ZM70.5 33H80V67H70.5V33Z" fill="#FF6900"></path>
+    </svg>
+
+    <div class="splash-divider"></div>
+
+    <!-- Logo Leica Negro y Naranja -->
+    <svg width="86" height="86" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 8px 24px rgba(255,105,0,0.42));">
+      <circle cx="50" cy="50" r="47" fill="#0B0B0E" stroke="#FF6900" stroke-width="4.5"></circle>
+      <text x="50" y="61" font-family="'Times New Roman', Georgia, serif" font-style="italic" font-weight="bold" font-size="33" fill="#FF6900" text-anchor="middle" letter-spacing="-0.5">Leica</text>
+    </svg>
+  </div>
+
+  <div class="splash-title">XIAOMI × LEICA</div>
+  <div class="splash-sub">Incentivos e Inventario Pro</div>
+  <div class="splash-loader-track">
+    <div class="splash-loader-fill"></div>
+  </div>
+</div>
+<noscript>
+  <div style="background:#FF6900;color:#fff;padding:16px;text-align:center;font-family:sans-serif;font-size:14px;font-weight:bold;position:sticky;top:0;z-index:9999;">
+    ⚠️ Vista previa sin botones activos.<br/>
+    <span style="font-weight:normal;font-size:13px;">Toca los <strong>3 puntos (⋮)</strong> arriba a la derecha y elige <strong>"Abrir con Chrome"</strong> (o Safari en iPhone) para activar todos los botones.</span>
+  </div>
+</noscript>
+
+<div class="header">
+  <div class="header-top">
+    <div class="brand">
+      <div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">
+        <!-- Logotipo Xiaomi Negro y Naranja -->
+        <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="border-radius:10px;box-shadow:0 3px 10px rgba(255,105,0,0.35);">
+          <path d="M50 2C85 2 98 15 98 50C98 85 85 98 50 98C15 98 2 85 2 50C2 15 15 2 50 2Z" fill="#0B0B0E" stroke="#FF6900" stroke-width="5"></path>
+          <path d="M22 33H52C59.5 33 64 37.5 64 45V67H54.5V45.5C54.5 42.8 53 41.5 50 41.5H31.5V67H22V33ZM38.5 48H48V67H38.5V48ZM70.5 33H80V67H70.5V33Z" fill="#FF6900"></path>
+        </svg>
+        <!-- Logotipo Leica Negro y Naranja -->
+        <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 3px 8px rgba(255,105,0,0.35));">
+          <circle cx="50" cy="50" r="47" fill="#0B0B0E" stroke="#FF6900" stroke-width="4.5"></circle>
+          <text x="50" y="61" font-family="'Times New Roman', Georgia, serif" font-style="italic" font-weight="bold" font-size="33" fill="#FF6900" text-anchor="middle" letter-spacing="-0.5">Leica</text>
+        </svg>
+      </div>
+      <div>
+        <h1>Incentivos e Inventario</h1>
+        <p id="subHeader">Nov 2026 • Alcance 0% (F0 • Mín 90%)</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:6px;align-items:center;">
+      <button type="button" class="btn-install" style="background:rgba(16,185,129,0.16);border-color:#10B981;color:#10B981;" onclick="shareToWhatsApp()">Compartir WA</button>
+      <button type="button" class="btn-install" onclick="openShortcutModal()">+ App</button>
+    </div>
+  </div>
+
+  <div class="hero-grid">
+    <div class="hero-main">
+      <div class="hero-label">Incentivo Real Acumulado</div>
+      <div class="hero-val" id="heroTotal">$0</div>
+      <div class="hero-sub" id="heroBreakdown">Celulares: $0 • PAD: $0 • AIOT: $0</div>
+      <div style="margin-top:8px;padding-top:7px;border-top:1px solid rgba(255,105,0,0.28);display:flex;justify-content:space-between;align-items:baseline;gap:6px;flex-wrap:wrap;">
+        <div>
+          <span style="display:block;font-size:9px;text-transform:uppercase;letter-spacing:0.4px;color:var(--green);font-weight:800;">Ticket Prom. Teléfonos (Monto)</span>
+          <strong style="font-size:15px;color:#fff;font-weight:900;" id="heroTicketMonto">$0</strong>
+        </div>
+        <div style="text-align:right;">
+          <span style="display:block;font-size:9px;color:var(--muted);font-weight:700;">Prom. / Teléfono</span>
+          <strong style="font-size:12px;color:var(--blue);font-weight:800;" id="heroTicketAvg">$0</strong>
+        </div>
+      </div>
+    </div>
+    <div class="hero-side">
+      <div class="stat-row"><span>Cuota / Tope 150%:</span><span id="statCap">82 / 123 pzas</span></div>
+      <div class="stat-row"><span>Vendidas Cuota:</span><span class="orange" id="statSold">0 pzas (0%)</span></div>
+      <div class="stat-row"><span>Sin Tope (Bruto):</span><span id="statBruto">$0</span></div>
+      <div class="stat-row" style="border-top:1px dashed var(--border);padding-top:4px;margin-top:2px;"><span>Vendido AIOT (Aparte):</span><span class="blue" id="statTicketAiot">$0 (0 pz)</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div id="wvBanner" style="display:none;background:rgba(255,105,0,0.16);border:1px solid var(--orange);border-radius:10px;padding:10px 12px;margin-bottom:10px;font-size:12px;color:#FFF;">
+    <strong>⚠️ Abierto desde vista previa de WhatsApp:</strong><br>
+    <span style="font-size:11px;color:#F4F4F5;">Para que funcionen todos los botones y se guarden tus cambios, toca los <strong>3 puntos (⋮)</strong> arriba a la derecha y selecciona <strong>"Abrir con Chrome"</strong> (o <strong>Safari</strong> en iPhone).</span>
+  </div>
+  <div class="controls-card" style="grid-template-columns: repeat(3, 1fr); gap: 8px;">
+    <div class="ctrl-group">
+      <label>Cuota Mensual</label>
+      <input type="number" id="inpQuota" value="82" min="1" onchange="updateSettings()">
+    </div>
+    <div class="ctrl-group">
+      <label>Cadena AIOT</label>
+      <select id="selChain" onchange="updateSettings()">
+        <option value="liverpool" selected="">Liverpool</option>
+        <option value="coppel">Coppel</option>
+        <option value="telcel">Telcel</option>
+      </select>
+    </div>
+    <div class="ctrl-group">
+      <label>Alcance PAD Reg.</label>
+      <select id="selPadReach" onchange="updateSettings()">
+        <option value="0">&lt;90% (0)</option>
+        <option value="1">90%-99% (1.0)</option>
+        <option value="1.2">100%-119% (1.2)</option>
+        <option value="1.3">120%-129% (1.3)</option>
+        <option value="1.5" selected="">≥130% (1.5)</option>
+      </select>
+    </div>
+    <div class="ctrl-group">
+      <label style="color:var(--orange);">Medición Incentivo</label>
+      <select id="selCalcMode" onchange="updateSettings()">
+        <option value="reach" selected="">Por Alcance (%)</option>
+        <option value="units">Por Piezas Vendidas</option>
+      </select>
+    </div>
+    <div class="ctrl-group">
+      <label style="color:var(--orange);">Mínimo Desbloqueo</label>
+      <select id="selMinUnlock" onchange="updateSettings()">
+        <option value="0">0% (Sin mínimo)</option>
+        <option value="10">10%</option>
+        <option value="20">20%</option>
+        <option value="30">30%</option>
+        <option value="40">40%</option>
+        <option value="50">50%</option>
+        <option value="60">60%</option>
+        <option value="70">70%</option>
+        <option value="80">80%</option>
+        <option value="90" selected="">90% (Actual)</option>
+        <option value="100">100%</option>
+        <option value="110">110%</option>
+        <option value="120">120%</option>
+        <option value="130">130%</option>
+      </select>
+    </div>
+    <div class="ctrl-group" style="display:flex;align-items:flex-end;">
+      <button type="button" onclick="openCalibrateModal()" style="width:100%;background:var(--orange-soft);border:1px solid var(--orange);color:var(--orange);padding:7px 6px;border-radius:8px;font-size:11px;font-weight:800;cursor:pointer;height:33px;">⚙️ Calibrar %</button>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button type="button" class="tab-btn active" onclick="switchTab('diario', this)">Día 1–31</button>
+    <button type="button" class="tab-btn" onclick="switchTab('acumulado', this)">Acumulado</button>
+    <button type="button" class="tab-btn" onclick="switchTab('ticket', this)">Ticket Prom.</button>
+    <button type="button" class="tab-btn" onclick="switchTab('inventario', this)">Inventario</button>
+    <button type="button" class="tab-btn" onclick="switchTab('tope', this)">Tope 150%</button>
+    <button type="button" class="tab-btn" onclick="switchTab('tabulador', this)">Tabulador</button>
+  </div>
+
+  <!-- TAB 1: DIARIO -->
+  <div id="tab-diario" class="anim-enter" style="display: block;">
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:8px 10px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center;gap:8px;">
+      <div style="display:flex;align-items:center;gap:6px;flex:1;">
+        <span style="font-size:11px;color:var(--orange);font-weight:800;">📅 Calendario:</span>
+        <select id="selCalMonth" onchange="changeCalendarMonth(document.getElementById('selCalYear').value, this.value)" style="background:var(--card2);border:1px solid var(--border);color:#fff;padding:5px 8px;border-radius:7px;font-size:12px;font-weight:700;">
+          <option value="0">Enero (31d)</option>
+          <option value="1">Febrero</option>
+          <option value="2">Marzo (31d)</option>
+          <option value="3">Abril (30d)</option>
+          <option value="4">Mayo (31d)</option>
+          <option value="5">Junio (30d)</option>
+          <option value="6">Julio (31d)</option>
+          <option value="7">Agosto (31d)</option>
+          <option value="8">Septiembre (30d)</option>
+          <option value="9">Octubre (31d)</option>
+          <option value="10">Noviembre (30d)</option>
+          <option value="11">Diciembre (31d)</option>
+        </select>
+        <select id="selCalYear" onchange="changeCalendarMonth(this.value, document.getElementById('selCalMonth').value)" style="background:var(--card2);border:1px solid var(--border);color:#fff;padding:5px 7px;border-radius:7px;font-size:12px;font-weight:700;">
+          <option value="2026" selected="">2026</option>
+          <option value="2027">2027</option>
+        </select>
+      </div>
+      <span id="calMonthBadge" style="font-size:10px;color:var(--muted);font-weight:700;white-space:nowrap;">Nov 2026 • 30 días</span>
+    </div>
+    <div class="days-wrap" id="daysStrip"></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:6px;flex-wrap:wrap;">
+      <div>
+        <strong style="font-size:13px;" id="dayTitle">Dom 1 de Noviembre 2026</strong>
+        <span style="display:block;font-size:11px;color:var(--orange);font-weight:700;" id="daySummary">0 piezas registradas hoy</span>
+      </div>
+      <button type="button" class="btn-install" style="background:var(--orange);color:#fff;border:none;padding:7px 11px;font-size:11px;" onclick="openNewDeviceModal()">+ Añadir equipos</button>
+    </div>
+
+    <!-- APARTADO OPCIONAL DE TICKETS POR DÍA (EXCLUSIVO POR DÍA) -->
+    <div class="tickets-box">
+      <div class="tickets-head">
+        <div>
+          <strong style="font-size:12px;color:#fff;" id="ticketBoxTitle">Tickets del Día 1 (Opcional)</strong>
+          <span style="display:block;font-size:10px;color:var(--muted);" id="ticketCountLbl">0 fotos en el Día 1 • Exclusivo de este día (no se mezcla con otros días)</span>
+        </div>
+        <div>
+          <label class="btn-ticket-add">
+            + Subir Ticket Día <span id="ticketBtnDay">1</span>
+            <input type="file" id="ticketFileInput" accept="image/*" multiple="" style="display:none;" onchange="handleTicketUpload(event)">
+          </label>
+        </div>
+      </div>
+      <div class="tickets-grid" id="ticketsGrid" style="display:none;"></div>
+    </div>
+    <div class="filter-bar">
+      <input type="text" class="search-input" id="searchBox" placeholder="Buscar modelo (ej. 17T Pro, Note 17, Watch 6, Buds...)" oninput="renderProducts()">
+      <div class="cat-pills">
+        <button type="button" class="cat-pill active" id="pillAllCount" onclick="setFilter('all', this)">Todos (48)</button>
+        <button type="button" class="cat-pill" onclick="setFilter('today', this)">Con ventas hoy</button>
+        <button type="button" class="cat-pill" onclick="setFilter('phone', this)">Smartphones</button>
+        <button type="button" class="cat-pill" onclick="setFilter('aiot', this)">AIOT / Relojes / Buds</button>
+        <button type="button" class="cat-pill" onclick="setFilter('pad', this)">PAD / Tablets</button>
+      </div>
+    </div>
+    <div id="productsList"></div>
+  </div>
+
+  <!-- TAB 2: ACUMULADO -->
+  <div id="tab-acumulado" style="display:none;">
+    <div class="table-card" style="padding:10px 12px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <strong style="font-size:13px;color:var(--green);">Ticket Promedio Acumulado (Monto por Modelo)</strong>
+        <strong style="font-size:13px;color:#fff;" id="acumTicketTotalBadge">$0</strong>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th class="num">Pzas</th>
+            <th class="num">Valor Eq.</th>
+            <th class="num">Monto Vendido</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyTicketModels"><tr><td colspan="4" style="text-align:center;color:var(--muted);">Sin ventas registradas</td></tr></tbody>
+      </table>
+    </div>
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Día</th>
+            <th class="num">Pzas Día</th>
+            <th class="num">Acum. Cuota</th>
+            <th class="num">Alcance</th>
+            <th class="num">Incentivo Real Acum.</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyAcumulado"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB DEDICADO: TICKET PROMEDIO (TELÉFONOS + AIOT APARTE) -->
+  <div id="tab-ticket" style="display:none;">
+    <div style="font-size:11px;font-weight:800;color:var(--green);letter-spacing:0.4px;text-transform:uppercase;margin-bottom:6px;">📱 Ticket Promedio — Solo Teléfonos</div>
+    <div class="inv-summary-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom:10px;">
+      <div class="inv-kpi">
+        <div class="k-lbl">MONTO TELÉFONOS</div>
+        <div class="k-val green" id="tpMontoTotal">$0</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:2px;">Solo smartphones</div>
+      </div>
+      <div class="inv-kpi">
+        <div class="k-lbl">TICKET PROMEDIO</div>
+        <div class="k-val blue" id="tpPromedioEq">$0</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:2px;">Promedio por teléfono</div>
+      </div>
+      <div class="inv-kpi">
+        <div class="k-lbl">TELÉFONOS VEND.</div>
+        <div class="k-val orange" id="tpTotalPzas">0</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:2px;" id="tpCuotaSub">0 de cuota</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+      <button type="button" class="btn-primary" style="margin-top:0;background:var(--green);" onclick="openAddPhoneTicketModal()">+ Agregar Teléfono</button>
+      <button type="button" class="btn-secondary" style="margin-top:0;color:var(--red);border-color:rgba(239,68,68,0.45);" onclick="toggleRemovePhonePanel()">− Quitar Teléfono</button>
+    </div>
+
+    <div id="removePhonePanel" style="display:none;background:var(--card);border:1px solid rgba(239,68,68,0.45);border-radius:12px;padding:10px 12px;margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <strong style="font-size:12px;color:var(--red);">Quitar Teléfono de la Lista</strong>
+        <button type="button" onclick="document.getElementById('removePhonePanel').style.display='none'" style="background:none;border:none;color:var(--muted);font-size:12px;font-weight:bold;cursor:pointer;">Cerrar</button>
+      </div>
+      <div style="display:flex;gap:8px;">
+        <select id="selRemovePhone" style="flex:1;background:var(--card2);border:1px solid var(--border);color:#fff;padding:8px 10px;border-radius:8px;font-size:12px;font-weight:700;"></select>
+        <button type="button" onclick="confirmRemoveSelectedPhone()" style="background:var(--red);color:#fff;border:none;padding:8px 12px;border-radius:8px;font-size:12px;font-weight:800;cursor:pointer;">Quitar</button>
+      </div>
+    </div>
+
+    <div class="filter-bar">
+      <input type="text" class="search-input" id="tpSearchBox" placeholder="Buscar teléfono para modificar su precio..." oninput="renderTicketTab()">
+    </div>
+
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Teléfono</th>
+            <th class="num">Vend.</th>
+            <th class="num">Precio ($)</th>
+            <th class="num">Monto</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyTicketTab">
+        <tr class="">
+          <td><strong>Xiaomi 17 Ultra</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x17u',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 15 Ultra</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x15u',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 17 Pro Max 5G</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="13999" onchange="updatePrice('rn17pm',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 17</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x17',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 15</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x15',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 17T Pro</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="20999" onchange="updatePrice('x17tp',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 17 Pro 5G</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="9999" onchange="updatePrice('rn17p',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 15T Pro</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x15tp',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 17T</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="15999" onchange="updatePrice('x17t',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 14T Pro</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x14tp',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 15T</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x15t',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 14T</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x14t',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 17</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="6499" onchange="updatePrice('rn17',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 14 Pro+ 5G</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn14p5p',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 15 Pro 5G</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn15p5',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 14 Pro 5G</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn14p5',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 15 Pro</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn15p',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 14 Pro</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn14p',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 15</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn15',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi Note 14</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('rn14',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi 17 (Especial Sin Tope)</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="4999" onchange="updatePrice('r17',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Xiaomi 18 Pro Max (Volumen)</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="0" onchange="updatePrice('x18pm',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>Redmi A7 Pro (Sin Comisión)</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="3299" onchange="updatePrice('ra7p',this.value)"></td>
+          <td class="num green"><strong>$0</strong></td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+
+    <!-- SECCIÓN APARTE PARA AIOT -->
+    <div style="margin-top:16px;padding-top:12px;border-top:1px dashed var(--border);">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+        <span style="font-size:11px;font-weight:800;color:var(--blue);letter-spacing:0.4px;text-transform:uppercase;">⌚ AIOT / Accesorios (Aparte)</span>
+        <span style="font-size:11px;color:var(--muted);font-weight:700;" id="tpAiotSummaryBadge">0 pzas • $0</span>
+      </div>
+      <div class="inv-summary-grid" style="grid-template-columns: repeat(3, 1fr); margin-bottom:10px;">
+        <div class="inv-kpi">
+          <div class="k-lbl">PIEZAS AIOT</div>
+          <div class="k-val blue" id="tpAiotPzas">0</div>
+          <div style="font-size:9px;color:var(--muted);margin-top:2px;">Relojes / Buds</div>
+        </div>
+        <div class="inv-kpi">
+          <div class="k-lbl">MONTO AIOT</div>
+          <div class="k-val green" id="tpAiotMonto">$0</div>
+          <div style="font-size:9px;color:var(--muted);margin-top:2px;">Venta AIOT</div>
+        </div>
+        <div class="inv-kpi">
+          <div class="k-lbl">INCENTIVO AIOT</div>
+          <div class="k-val orange" id="tpAiotInc">$0</div>
+          <div style="font-size:9px;color:var(--muted);margin-top:2px;">Bono directo</div>
+        </div>
+      </div>
+      <div class="table-card">
+        <table>
+          <thead>
+            <tr>
+              <th>Equipo AIOT</th>
+              <th class="num">Vend.</th>
+              <th class="num">Precio ($)</th>
+              <th class="num">Monto</th>
+            </tr>
+          </thead>
+          <tbody id="tbodyTicketAiot">
+        <tr class="">
+          <td><strong>Xiaomi Watch S5 46mm</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--blue);" type="number" value="4199" onchange="updatePrice('aiot_ws5',this.value)"></td>
+          <td class="num blue"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>REDMI Watch 6</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--blue);" type="number" value="2099" onchange="updatePrice('aiot_rw6',this.value)"></td>
+          <td class="num blue"><strong>$0</strong></td>
+        </tr>
+      
+        <tr class="">
+          <td><strong>REDMI Watch 6 Lite</strong></td>
+          <td class="num">0</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--blue);" type="number" value="1349" onchange="updatePrice('aiot_rw6l',this.value)"></td>
+          <td class="num blue"><strong>$0</strong></td>
+        </tr>
+      </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 3: INVENTARIO -->
+  <div id="tab-inventario" style="display:none;">
+    <div class="inv-summary-grid" style="grid-template-columns: repeat(2, 1fr);">
+      <div class="inv-kpi">
+        <div class="k-lbl">TOTAL SMARTPHONES</div>
+        <div class="k-val orange" id="invTotalPhones">0</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:2px;" id="invPhonesSub">Telcel: 0 • Libre: 0 • AT&amp;T: 0</div>
+      </div>
+      <div class="inv-kpi">
+        <div class="k-lbl">TOTAL AIOT / ACCESORIOS</div>
+        <div class="k-val blue" id="invTotalAiot">0</div>
+        <div style="font-size:9px;color:var(--muted);margin-top:2px;">Relojes / Buds / Cámaras</div>
+      </div>
+    </div>
+
+    <div style="margin-bottom:10px;">
+      <button type="button" class="btn-primary" style="margin-top:0;" onclick="openNewInventoryModal()">+ Añadir equipos más SKU</button>
+    </div>
+    <div class="filter-bar">
+      <input type="text" class="search-input" id="invSearchBox" placeholder="Buscar en inventario por modelo, color o código SKU..." oninput="renderInventory()">
+      <div class="cat-pills">
+        <button type="button" class="cat-pill active" onclick="setInvFilter('all', this)">Todo el Inventario</button>
+        <button type="button" class="cat-pill" onclick="setInvFilter('phone', this)">Smartphones</button>
+        <button type="button" class="cat-pill" onclick="setInvFilter('aiot', this)">AIOT / Accesorios</button>
+        <button type="button" class="cat-pill" onclick="setInvFilter('low', this)">Agotados / Stock Bajo</button>
+      </div>
+    </div>
+
+    <div id="inventoryList"></div>
+  </div>
+
+  <!-- TAB 4: DESGLOSE TOPE 150% -->
+  <div id="tab-tope" style="display:none;">
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:10px 12px;margin-bottom:10px;">
+      <label style="display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer;">
+        <div>
+          <strong style="font-size:12px;color:#fff;display:block;">Reemplazar con mayor comisión al pasar 150%</strong>
+          <span id="lblPriorityModeDesc" style="font-size:10px;color:var(--muted);">Activado: las piezas de mayor comisión desplazan a las de menor comisión.</span>
+        </div>
+        <input type="checkbox" id="chkPrioritizeHighComm" checked="" onchange="togglePrioritizeHighComm(this.checked)" style="accent-color:var(--orange);width:18px;height:18px;flex-shrink:0;">
+      </label>
+    </div>
+    <p id="lblTopeSubtitle" style="font-size:12px;color:var(--muted);margin-bottom:8px;">Ordenado de mayor a menor comisión dentro del límite máximo del 150% (<strong id="lblCapCount" style="color:#fff;">123 pzas</strong>).</p>
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Modelo / Canal</th>
+            <th class="num">Tarifa</th>
+            <th class="num">Vend.</th>
+            <th class="num">Pagadas</th>
+            <th class="num">Total</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyTope"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAB 5: TABULADOR EDITABLE -->
+  <div id="tab-tabulador" style="display:none;">
+    <button type="button" class="btn-primary" style="margin-top:0;margin-bottom:10px;" onclick="openNewDeviceModal()">+ Añadir equipos</button>
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px 12px;margin-bottom:10px;">
+      <strong style="font-size:12px;color:#fff;display:block;margin-bottom:8px;">Empezar desde cero (Limpiar datos)</strong>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+        <button type="button" class="btn-secondary" style="margin-top:0;color:var(--red);border-color:rgba(239,68,68,0.45);background:rgba(239,68,68,0.08);" onclick="clearAllSalesZero()">🗑️ Borrar Ventas (0)</button>
+        <button type="button" class="btn-secondary" style="margin-top:0;color:var(--red);border-color:rgba(239,68,68,0.45);background:rgba(239,68,68,0.08);" onclick="clearAllInventoryZero()">📦 Borrar Inventario (0)</button>
+      </div>
+      <div style="display:flex;gap:8px;">
+        <button type="button" class="btn-secondary" style="margin-top:0;" onclick="exportBackup()">Exportar Respaldo JSON</button>
+        <button type="button" class="btn-secondary" style="margin-top:0;" onclick="resetDefaultData()">Restaurar Nov 2026</button>
+      </div>
+    </div>
+    <div id="restoreHiddenBox" style="display:none;background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:9px 11px;margin-bottom:10px;font-size:11px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+        <span>Tienes <strong id="hiddenCountLbl" class="orange">0</strong> equipo(s) ocultos de tu tienda.</span>
+        <button type="button" onclick="restoreHiddenModels()" style="background:var(--orange-soft);border:1px solid var(--orange);color:var(--orange);padding:4px 9px;border-radius:7px;font-size:11px;font-weight:700;cursor:pointer;">Mostrar todos</button>
+      </div>
+    </div>
+    <p style="font-size:11px;color:var(--muted);margin-bottom:8px;">
+      Toca <strong>✕</strong> en cualquier equipo que no maneje tu tienda para quitarlo de tu lista. Si cambia algún incentivo, edita su tarifa base aquí.
+    </p>
+    <div class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th class="num">Valor ($)</th>
+            <th class="num">Libre (F1)</th>
+            <th class="num">Carrier (F1)</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyRates"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL CALIBRAR ESCALA DE INCENTIVO (10% EN 10% HASTA 130%) -->
+<div class="modal-bg" id="calibrateModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-width:440px;max-height:90vh;overflow-y:auto;">
+    <h3>Calibrar Reglas de Incentivo</h3>
+    <p style="font-size:12px;color:var(--muted);">Ajusta cómo se mide tu incentivo el siguiente mes: elige <strong>Por Alcance (%)</strong> o <strong>Por Piezas Vendidas</strong>, define el porcentaje mínimo para cobrar y calibra el factor multiplicador de 10% en 10% hasta 130%.</p>
+
+    <div style="background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px;margin-bottom:10px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+        <div>
+          <label style="display:block;font-size:10px;color:var(--orange);font-weight:700;margin-bottom:4px;">Modo de Medición</label>
+          <select id="calModeModal" onchange="toggleCalModeHint()" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:7px 8px;border-radius:7px;font-size:12px;font-weight:700;">
+            <option value="reach">Por Alcance (% de Cuota)</option>
+            <option value="units">Por Piezas Vendidas (Directo)</option>
+          </select>
+        </div>
+        <div>
+          <label style="display:block;font-size:10px;color:var(--orange);font-weight:700;margin-bottom:4px;">Mínimo para Incentivo</label>
+          <select id="calMinUnlockModal" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:7px 8px;border-radius:7px;font-size:12px;font-weight:700;">
+            <option value="0">0% (Desde 1ra pieza)</option>
+            <option value="10">10%</option>
+            <option value="20">20%</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+            <option value="50">50%</option>
+            <option value="60">60%</option>
+            <option value="70">70%</option>
+            <option value="80">80%</option>
+            <option value="90">90% (Actual)</option>
+            <option value="100">100%</option>
+            <option value="110">110%</option>
+            <option value="120">120%</option>
+            <option value="130">130%</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="calUnitsRow" style="display:none;margin-bottom:8px;padding-top:6px;border-top:1px dashed var(--border);">
+        <label style="display:block;font-size:10px;color:var(--blue);font-weight:700;margin-bottom:4px;">Factor fijo al medir Por Piezas Vendidas</label>
+        <input type="number" step="0.1" min="0" id="calUnitsFactor" value="1" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:7px 8px;border-radius:7px;font-size:13px;font-weight:800;">
+        <span style="display:block;font-size:10px;color:var(--muted);margin-top:3px;">1.0 = paga la tarifa base exacta por cada pieza vendida sin depender de cuota (si el mínimo % está en 0%).</span>
+      </div>
+
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:11px;font-weight:700;padding-top:4px;">
+        <input type="checkbox" id="calApplyCap" checked="" style="accent-color:var(--orange);width:16px;height:16px;">
+        <span>Aplicar Tope máximo de piezas pagadas (150% de cuota)</span>
+      </label>
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:11px;font-weight:700;padding-top:6px;">
+        <input type="checkbox" id="calPrioritizeHigh" checked="" style="accent-color:var(--orange);width:16px;height:16px;">
+        <span>Reemplazar piezas menores por mayor comisión al pasar 150%</span>
+      </label>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+      <strong style="font-size:12px;color:#fff;">Tabla de Factores (10% en 10% hasta 130%)</strong>
+      <button type="button" onclick="resetCalibrationScale()" style="background:none;border:none;color:var(--orange);font-size:11px;font-weight:700;cursor:pointer;text-decoration:underline;">Restaurar Escala Nov</button>
+    </div>
+    <p style="font-size:10px;color:var(--muted);margin-bottom:6px;">Si tu alcance es menor al <strong>Mínimo para Incentivo</strong> seleccionado arriba, el factor será <strong>0</strong> automáticamente.</p>
+
+    <div class="table-card" style="margin-bottom:10px;">
+      <table>
+        <thead>
+          <tr>
+            <th>Alcance</th>
+            <th class="num">Piezas Req.</th>
+            <th class="num">Factor Mult.</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyCalibrateScale"></tbody>
+      </table>
+    </div>
+
+    <button type="button" class="btn-primary" onclick="saveCalibrationModal()">Aplicar Calibración</button>
+    <button type="button" class="btn-secondary" onclick="document.getElementById('calibrateModal').classList.remove('open')">Cancelar</button>
+  </div>
+</div>
+
+<!-- MODAL AÑADIR EQUIPOS -->
+<div class="modal-bg" id="newDeviceModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-height:90vh;overflow-y:auto;">
+    <h3>Añadir Equipos</h3>
+    <p style="font-size:12px;color:var(--muted);">Registra cualquier teléfono, reloj, audífonos o tablet con su incentivo correspondiente.</p>
+
+    <div style="margin-bottom:10px;">
+      <label style="display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:4px;">Tipo de Dispositivo</label>
+      <select id="ndCat" onchange="toggleNewDeviceFields()" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+        <option value="phone">📱 Smartphone / Teléfono (Libre y Carrier)</option>
+        <option value="aiot">⌚ AIOT (Reloj, Buds, Cámara, Banda)</option>
+        <option value="pad">📟 PAD / Tablet</option>
+      </select>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:8px;margin-bottom:10px;">
+      <div>
+        <label style="display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:4px;">Nombre del Modelo</label>
+        <input type="text" id="ndName" placeholder="Ej. Redmi Note 18 Pro" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+      </div>
+      <div>
+        <label style="display:block;font-size:11px;color:var(--green);font-weight:700;margin-bottom:4px;">Valor Equipo ($)</label>
+        <input type="number" id="ndPrice" placeholder="Ej. 9999" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:13px;font-weight:800;">
+      </div>
+    </div>
+
+    <!-- Campos Smartphone -->
+    <div id="ndPhoneFields">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+        <div>
+          <label style="display:block;font-size:11px;color:var(--orange);font-weight:700;margin-bottom:4px;">Incentivo LIBRE (Base F1)</label>
+          <input type="number" id="ndRateL" placeholder="Ej. 300" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:14px;font-weight:800;">
+        </div>
+        <div>
+          <label style="display:block;font-size:11px;color:#38BDF8;font-weight:700;margin-bottom:4px;">Incentivo CARRIER (Base F1)</label>
+          <input type="number" id="ndRateC" placeholder="Ej. 240" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:14px;font-weight:800;">
+        </div>
+      </div>
+      <div style="background:var(--card2);border:1px solid var(--border);border-radius:9px;padding:8px 10px;margin-bottom:10px;font-size:11px;">
+        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-bottom:6px;">
+          <input type="checkbox" id="ndInQuota" checked="" style="accent-color:var(--orange);width:16px;height:16px;">
+          <span>Suma piezas a la Cuota Mensual</span>
+        </label>
+        <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+          <input type="checkbox" id="ndCapped" checked="" style="accent-color:var(--orange);width:16px;height:16px;">
+          <span>Entra en el límite del Tope 150%</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Campos AIOT / PAD -->
+    <div id="ndSingleRateField" style="display:none;margin-bottom:10px;">
+      <label id="ndSingleRateLabel" style="display:block;font-size:11px;color:var(--orange);font-weight:700;margin-bottom:4px;">Bono Directo por Pieza ($)</label>
+      <input type="number" id="ndRateSingle" placeholder="Ej. 100" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:14px;font-weight:800;">
+      <p id="ndSingleHint" style="font-size:10px;color:var(--muted);margin-top:4px;">Aplica para todas las cadenas (Liverpool, Coppel, Telcel).</p>
+    </div>
+
+    <!-- Opcional: Agregar también al Inventario -->
+    <div style="background:var(--card2);border:1px dashed rgba(255,105,0,0.45);border-radius:9px;padding:9px 10px;margin-bottom:10px;">
+      <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-size:12px;font-weight:700;">
+        <input type="checkbox" id="ndAddToInv" onchange="document.getElementById('ndInvExtra').style.display=this.checked?'block':'none'" style="accent-color:var(--orange);width:16px;height:16px;">
+        <span>Crear también tarjeta en Inventario</span>
+      </label>
+      <div id="ndInvExtra" style="display:none;margin-top:8px;">
+        <div id="ndVariantsContainer"></div>
+        <button type="button" class="btn-secondary" style="margin-top:4px;padding:6px;font-size:11px;" onclick="addNdVariantRow()">+ Agregar otro color y SKU</button>
+      </div>
+    </div>
+
+    <button type="button" class="btn-primary" onclick="saveNewDevice()">Guardar Equipo</button>
+    <button type="button" class="btn-secondary" onclick="document.getElementById('newDeviceModal').classList.remove('open')">Cancelar</button>
+  </div>
+</div>
+
+
+<!-- MODAL AGREGAR TELÉFONO (TICKET PROMEDIO) -->
+<div class="modal-bg" id="addPhoneTicketModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box">
+    <h3 style="color:var(--green);">Agregar Teléfono</h3>
+    <p style="font-size:12px;color:var(--muted);">Añade un teléfono con su precio para el Ticket Promedio y su incentivo base.</p>
+    <div style="margin-bottom:10px;">
+      <label style="display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:4px;">Nombre del Teléfono</label>
+      <input type="text" id="aptName" placeholder="Ej. Redmi Note 18 Pro 5G" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+    </div>
+    <div style="margin-bottom:10px;">
+      <label style="display:block;font-size:11px;color:var(--green);font-weight:700;margin-bottom:4px;">Precio / Valor del Teléfono ($)</label>
+      <input type="number" id="aptPrice" placeholder="Ej. 10999" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:14px;font-weight:800;">
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+      <div>
+        <label style="display:block;font-size:11px;color:var(--orange);font-weight:700;margin-bottom:4px;">Incentivo Libre (F1)</label>
+        <input type="number" id="aptRateL" placeholder="0" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:8px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+      </div>
+      <div>
+        <label style="display:block;font-size:11px;color:var(--blue);font-weight:700;margin-bottom:4px;">Incentivo Carrier (F1)</label>
+        <input type="number" id="aptRateC" placeholder="0" min="0" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:8px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+      </div>
+    </div>
+    <button type="button" class="btn-primary" style="background:var(--green);" onclick="savePhoneFromTicketModal()">Guardar Teléfono</button>
+    <button type="button" class="btn-secondary" onclick="document.getElementById('addPhoneTicketModal').classList.remove('open')">Cancelar</button>
+  </div>
+</div>
+
+<!-- MODAL EDITAR SKUS Y VARIANTES -->
+<div class="modal-bg" id="editSkuModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-width:460px;max-height:90vh;overflow-y:auto;">
+    <h3 id="skuModalTitle">Gestionar SKUs y Colores</h3>
+    <p style="font-size:12px;color:var(--muted);" id="skuModalSub">Edita los códigos SKU o agrega colores para este modelo.</p>
+    <div id="skuModalBody" style="margin-top:10px;"></div>
+    <div style="display:flex;gap:8px;margin-top:12px;">
+      <button type="button" class="btn-primary" style="margin-top:0;" onclick="saveSkuEdits()">Guardar Cambios</button>
+      <button type="button" class="btn-secondary" style="margin-top:0;" onclick="document.getElementById('editSkuModal').classList.remove('open')">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL NUEVO MODELO EN INVENTARIO -->
+<div class="modal-bg" id="newInvModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-width:460px;max-height:90vh;overflow-y:auto;">
+    <h3>Añadir equipos más SKU</h3>
+    <p style="font-size:12px;color:var(--muted);">Registra el equipo junto con sus colores y códigos SKU al mismo tiempo.</p>
+    <div style="margin-bottom:10px;">
+      <label style="display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:4px;">Tipo de Equipo</label>
+      <select id="niCat" onchange="renderNewInvVariantsBuilder()" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+        <option value="phone">📱 Smartphone (Telcel, Libre, AT&amp;T)</option>
+        <option value="aiot">⌚ AIOT / Accesorio (Stock general por color)</option>
+      </select>
+    </div>
+    <div style="margin-bottom:10px;">
+      <label style="display:block;font-size:11px;color:var(--muted);font-weight:700;margin-bottom:4px;">Nombre del Modelo</label>
+      <input type="text" id="niName" placeholder="Ej. Xiaomi 18 Pro o Redmi Watch 6" style="width:100%;background:var(--card2);border:1px solid var(--border);color:#fff;padding:9px 10px;border-radius:9px;font-size:13px;font-weight:700;">
+    </div>
+    <div style="margin-bottom:10px;">
+      <label style="display:block;font-size:11px;color:var(--orange);font-weight:700;margin-bottom:6px;">Colores y Códigos SKU</label>
+      <div id="niVariantsContainer"></div>
+      <button type="button" class="btn-secondary" style="margin-top:4px;padding:7px;font-size:11px;" onclick="addNewInvVariantRow()">+ Agregar otro color y SKU</button>
+    </div>
+    <button type="button" class="btn-primary" onclick="saveNewInventoryItem()">Guardar Equipo y SKUs</button>
+    <button type="button" class="btn-secondary" onclick="document.getElementById('newInvModal').classList.remove('open')">Cancelar</button>
+  </div>
+</div>
+
+<!-- LIGHTBOX VER TICKET -->
+<div class="modal-bg" id="ticketViewModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-width:440px;">
+    <h3 id="ticketModalTitle">Ticket de Venta</h3>
+    <p id="ticketModalSub" style="font-size:11px;color:var(--muted);"></p>
+    <img id="ticketModalImg" class="lightbox-img" src="" alt="Ticket">
+    <button type="button" class="btn-secondary" onclick="document.getElementById('ticketViewModal').classList.remove('open')">Cerrar Vista</button>
+  </div>
+</div>
+
+<!-- MODAL COMPARTIR WHATSAPP Y QR -->
+<div class="modal-bg" id="waShareModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-width:430px;max-height:90vh;overflow-y:auto;">
+    <h3 style="color:#10B981;">Compartir App y Reporte</h3>
+    <p style="font-size:12px;color:var(--muted);">Comparte la aplicación al instante por enlace directo, código QR o resumen de ventas:</p>
+
+    <!-- 1. ENLACE DIRECTO WHATSAPP + COPIAR -->
+    <div style="background:var(--card2);border:1px solid rgba(16,185,129,0.4);border-radius:11px;padding:10px;margin-bottom:9px;">
+      <strong style="font-size:12px;color:#10B981;display:block;margin-bottom:6px;">1. Enlace Directo (Más rápido y sencillo)</strong>
+      <div style="display:flex;gap:6px;margin-bottom:6px;">
+        <input type="text" id="shareDirectUrlInput" readonly="" style="flex:1;background:var(--bg);border:1px solid var(--border);color:#fff;padding:7px 8px;border-radius:7px;font-size:11px;font-family:monospace;">
+        <button type="button" onclick="copyDirectShareLink()" id="btnCopyDirectLink" style="background:var(--orange-soft);border:1px solid var(--orange);color:var(--orange);padding:7px 10px;border-radius:7px;font-size:11px;font-weight:800;cursor:pointer;white-space:nowrap;">Copiar</button>
+      </div>
+      <button type="button" class="btn-primary" style="background:#10B981;margin-top:0;" onclick="shareDirectLinkWhatsApp()">📲 Enviar Enlace Directo por WhatsApp</button>
+    </div>
+
+    <!-- 2. CÓDIGO QR INSTANTÁNEO -->
+    <div style="background:var(--card2);border:1px solid rgba(255,105,0,0.4);border-radius:11px;padding:10px;margin-bottom:9px;text-align:center;">
+      <strong style="font-size:12px;color:var(--orange);display:block;margin-bottom:4px;">2. Código QR (Escanea con la cámara)</strong>
+      <span style="display:block;font-size:10px;color:var(--muted);margin-bottom:8px;">Tus compañeros solo apuntan su cámara para abrir la app en su celular</span>
+      <div id="qrCodeWrap" style="background:#fff;padding:10px;border-radius:10px;display:inline-block;margin:0 auto 6px auto;">
+        <canvas id="shareQrCanvas" width="176" height="176" style="display:block;"></canvas>
+      </div>
+      <div id="qrFallbackNote" style="font-size:10px;color:var(--muted);"></div>
+    </div>
+
+    <!-- 3. RESUMEN TEXTO Y ARCHIVO HTML -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;">
+      <button type="button" class="btn-primary" style="background:var(--orange);margin-top:0;font-size:12px;padding:9px 6px;" onclick="shareTextOnlyWhatsApp()">3. Resumen Texto WA</button>
+      <button type="button" class="btn-secondary" style="margin-top:0;font-size:12px;padding:9px 6px;color:#fff;" onclick="shareFileNative()">4. Archivo (.html)</button>
+    </div>
+
+    <button type="button" class="btn-secondary" onclick="document.getElementById('waShareModal').classList.remove('open')">Cerrar</button>
+  </div>
+</div>
+
+<!-- MODAL ACCESO DIRECTO -->
+<div class="modal-bg" id="shortcutModal" onclick="if(event.target===this)this.classList.remove('open')">
+  <div class="modal-box" style="max-height:88vh;overflow-y:auto;">
+    <h3>Instalar / Crear Acceso Directo</h3>
+    <div id="nativeInstallBox" style="display:none;background:rgba(16,185,129,0.15);border:1px solid #10B981;border-radius:10px;padding:10px;margin-bottom:10px;">
+      <p style="font-size:12px;color:#A7F3D0;margin-bottom:6px;"><strong>¡Instalación nativa disponible!</strong> Tu navegador permite instalar esta herramienta como app directa:</p>
+      <button type="button" class="btn-primary" style="background:#10B981;margin-top:0;" onclick="triggerNativeInstall()">Instalar Aplicación Ahora</button>
+    </div>
+
+    <div style="background:linear-gradient(135deg, rgba(16,185,129,0.14) 0%, var(--card2) 100%);border:1px solid rgba(16,185,129,0.5);border-radius:10px;padding:10px;margin-bottom:10px;">
+      <strong style="font-size:12px;color:#10B981;display:block;margin-bottom:4px;">🚀 GitHub Pages (Enlace Permanente + Instalar App)</strong>
+      <p style="font-size:11px;color:var(--text);margin-bottom:6px;">Descarga el archivo ya renombrado como <code>index.html</code> listo para subirlo directo a GitHub sin cambiarle el nombre:</p>
+      <ol style="margin-top:4px;margin-bottom:8px;font-size:11px;color:var(--muted);">
+        <li>Descarga <strong>index.html</strong> con el botón verde de abajo y súbelo a tu repositorio público en <strong>github.com</strong>.</li>
+        <li>Activa <strong>Settings → Pages</strong> (Branch: <code>main</code> / <code>root</code>) para obtener tu enlace permanente.</li>
+        <li>Abre ese enlace <code>github.io</code> en Chrome y toca <strong>"Instalar aplicación"</strong> (o los <strong>3 puntos ⋮ → Instalar aplicación</strong>).</li>
+      </ol>
+      <button type="button" class="btn-primary" style="background:#10B981;margin-top:0;" onclick="downloadGitHubHTML()">Descargar index.html para GitHub</button>
+    </div>
+
+    <div style="background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px;margin-bottom:8px;">
+      <strong style="font-size:12px;color:var(--orange);">Opción A: Acceso Directo Local en Chrome (Sin internet)</strong>
+      <ol style="margin-top:5px;font-size:11px;color:var(--muted);">
+        <li>Toca los <strong>3 puntos (⋮)</strong> de Chrome y presiona la estrella <strong>★ Favoritos</strong>.</li>
+        <li>En la pantalla principal de tu celular deja presionado un espacio vacío → <strong>Widgets → Chrome → Marcadores</strong>.</li>
+      </ol>
+    </div>
+
+    <button type="button" class="btn-primary" onclick="downloadSelfHTML()">Descargar Copia HTML Actualizada</button>
+    <button type="button" class="btn-secondary" onclick="document.getElementById('shortcutModal').classList.remove('open')">Cerrar</button>
+  </div>
+</div>
+
+<script>
+const CATALOG = [
+  // SMARTPHONES
+  { id: "x17u", name: "Xiaomi 17 Ultra", cat: "phone", inQuota: true, capped: true, baseL: 540, baseC: 432 },
+  { id: "x15u", name: "Xiaomi 15 Ultra", cat: "phone", inQuota: true, capped: true, baseL: 525, baseC: 420 },
+  { id: "rn17pm", price: 13999, name: "Redmi Note 17 Pro Max 5G", cat: "phone", inQuota: true, capped: true, baseL: 420, baseC: 420 },
+  { id: "x17", name: "Xiaomi 17", cat: "phone", inQuota: true, capped: true, baseL: 375, baseC: 300 },
+  { id: "x15", name: "Xiaomi 15", cat: "phone", inQuota: true, capped: true, baseL: 360, baseC: 288 },
+  { id: "x17tp", price: 20999, name: "Xiaomi 17T Pro", cat: "phone", inQuota: true, capped: true, baseL: 315, baseC: 252 },
+  { id: "rn17p", price: 9999, name: "Redmi Note 17 Pro 5G", cat: "phone", inQuota: true, capped: true, baseL: 300, baseC: 200 },
+  { id: "x15tp", name: "Xiaomi 15T Pro", cat: "phone", inQuota: true, capped: true, baseL: 255, baseC: 204 },
+  { id: "x17t", price: 15999, name: "Xiaomi 17T", cat: "phone", inQuota: true, capped: true, baseL: 240, baseC: 192 },
+  { id: "x14tp", name: "Xiaomi 14T Pro", cat: "phone", inQuota: true, capped: true, baseL: 217, baseC: 174 },
+  { id: "x15t", name: "Xiaomi 15T", cat: "phone", inQuota: true, capped: true, baseL: 210, baseC: 168 },
+  { id: "x14t", name: "Xiaomi 14T", cat: "phone", inQuota: true, capped: true, baseL: 195, baseC: 156 },
+  { id: "rn17", price: 6499, name: "Redmi Note 17", cat: "phone", inQuota: true, capped: true, baseL: 195, baseC: 130 },
+  { id: "rn14p5p", name: "Redmi Note 14 Pro+ 5G", cat: "phone", inQuota: true, capped: true, baseL: 165, baseC: 132 },
+  { id: "rn15p5", name: "Redmi Note 15 Pro 5G", cat: "phone", inQuota: true, capped: true, baseL: 150, baseC: 120 },
+  { id: "rn14p5", name: "Redmi Note 14 Pro 5G", cat: "phone", inQuota: true, capped: true, baseL: 135, baseC: 108 },
+  { id: "rn15p", name: "Redmi Note 15 Pro", cat: "phone", inQuota: true, capped: true, baseL: 120, baseC: 96 },
+  { id: "rn14p", name: "Redmi Note 14 Pro", cat: "phone", inQuota: true, capped: true, baseL: 105, baseC: 84 },
+  { id: "rn15", name: "Redmi Note 15", cat: "phone", inQuota: true, capped: true, baseL: 90, baseC: 72 },
+  { id: "rn14", name: "Redmi Note 14", cat: "phone", inQuota: true, capped: true, baseL: 75, baseC: 60 },
+  { id: "r17", price: 4999, name: "Redmi 17 (Especial Sin Tope)", cat: "phone", inQuota: false, capped: false, baseL: 25, baseC: 20 },
+  { id: "x18pm", price: 0, name: "Xiaomi 18 Pro Max (Volumen)", cat: "phone", inQuota: true, capped: true, baseL: 0, baseC: 0 },
+  { id: "ra7p", price: 3299, name: "Redmi A7 Pro (Sin Comisión)", cat: "phone", inQuota: false, capped: false, baseL: 0, baseC: 0 },
+
+  // PAD / TABLETS
+  { id: "pad8w", name: "Xiaomi Pad 8 WiFi", cat: "pad", baseL: 180 },
+  { id: "pad2pw", name: "Redmi Pad 2 Pro WiFi", cat: "pad", baseL: 109 },
+  { id: "pad24g", name: "Redmi Pad 2 4G", cat: "pad", baseL: 82 },
+  { id: "pad2w", name: "Redmi Pad 2 WiFi", cat: "pad", baseL: 75 },
+  { id: "pad297", name: "Redmi Pad 2 9.7", cat: "pad", baseL: 69 },
+
+  // AIOT
+  { id: "aiot_ws5", price: 4199, name: "Xiaomi Watch S5 46mm", cat: "aiot", chains: { liverpool: 100, coppel: 0, telcel: 0 } },
+  { id: "aiot_open", name: "Xiaomi OpenWear Stereo", cat: "aiot", chains: { liverpool: 100, coppel: 0, telcel: 50 } },
+  { id: "aiot_cam701", name: "Cámara Xiaomi C701", cat: "aiot", chains: { liverpool: 100, coppel: 0, telcel: 0 } },
+  { id: "aiot_rw6", price: 2099, name: "REDMI Watch 6", cat: "aiot", chains: { liverpool: 90, coppel: 100, telcel: 0 } },
+  { id: "aiot_buds8p", price: 0, name: "REDMI Buds 8 Pro", cat: "aiot", chains: { liverpool: 80, coppel: 0, telcel: 0 } },
+  { id: "aiot_buds5", name: "Xiaomi Buds 5", cat: "aiot", chains: { liverpool: 80, coppel: 0, telcel: 0 } },
+  { id: "aiot_hpneo", name: "REDMI Headphones Neo", cat: "aiot", chains: { liverpool: 0, coppel: 80, telcel: 0 } },
+  { id: "aiot_ws3", name: "Xiaomi Watch S3", cat: "aiot", chains: { liverpool: 0, coppel: 0, telcel: 80 } },
+  { id: "aiot_cambw5", name: "Cámara Xiaomi BW500", cat: "aiot", chains: { liverpool: 80, coppel: 0, telcel: 0 } },
+  { id: "aiot_rw6l", price: 1349, name: "REDMI Watch 6 Lite", cat: "aiot", chains: { liverpool: 70, coppel: 90, telcel: 0 } },
+  { id: "aiot_sb9p", name: "Xiaomi Smart Band 9 Pro", cat: "aiot", chains: { liverpool: 70, coppel: 100, telcel: 0 } },
+  { id: "aiot_buds8", name: "REDMI Buds 8", cat: "aiot", chains: { liverpool: 0, coppel: 70, telcel: 0 } },
+  { id: "aiot_camc300", name: "Cámara Xiaomi C300 Dual", cat: "aiot", chains: { liverpool: 70, coppel: 0, telcel: 0 } },
+  { id: "aiot_rw5l", name: "Redmi Watch 5 Lite", cat: "aiot", chains: { liverpool: 60, coppel: 90, telcel: 0 } },
+  { id: "aiot_rw6a", name: "REDMI Watch 6 Active", cat: "aiot", chains: { liverpool: 0, coppel: 60, telcel: 0 } },
+  { id: "aiot_rw5a", name: "Redmi Watch 5 Active", cat: "aiot", chains: { liverpool: 0, coppel: 50, telcel: 0 } },
+  { id: "aiot_w2", name: "Xiaomi Watch 2", cat: "aiot", chains: { liverpool: 0, coppel: 0, telcel: 50 } },
+  { id: "aiot_rbuds5", name: "Redmi Buds 5", cat: "aiot", chains: { liverpool: 0, coppel: 0, telcel: 50 } },
+  { id: "aiot_camc100", name: "Cámara Xiaomi C100", cat: "aiot", chains: { liverpool: 50, coppel: 0, telcel: 0 } },
+  { id: "aiot_buds8l", price: 0, name: "REDMI Buds 8 Lite", cat: "aiot", chains: { liverpool: 20, coppel: 30, telcel: 0 } }
+];
+
+function getAllCatalog() {
+  const hidden = new Set(state.hiddenModels || []);
+  return [...CATALOG, ...(state.customModels || [])].filter(m => !hidden.has(m.id));
+}
+
+// Exact inventory extracted from Hoja 3 (with color variants and official SKUs)
+const INITIAL_INVENTORY = [
+  {
+    id: "inv_x17tp", model: "XIAOMI 17T PRO", cat: "phone",
+    variants: [
+      { color: "NEGRO", telcel: 4, skuT: "1204490089", libre: 0, skuL: "1199640671", att: 3, skuA: "1203379613" },
+      { color: "AZUL TITAN", telcel: 3, skuT: "1204490062", libre: 8, skuL: "11996406625", att: 0, skuA: "-" },
+      { color: "VIOLETA", telcel: 12, skuT: "1204490071", libre: 16, skuL: "1199640689", att: 0, skuA: "-" }
+    ]
+  },
+  {
+    id: "inv_x17t", model: "XIAOMI 17T", cat: "phone",
+    variants: [
+      { color: "NEGRO", telcel: 0, skuT: "-", libre: 19, skuL: "1199640751", att: 5, skuA: "1203400612" },
+      { color: "ROSA", telcel: 0, skuT: "-", libre: 11, skuL: "1199640760", att: 0, skuA: "-" },
+      { color: "AZUL", telcel: 0, skuT: "-", libre: 0, skuL: "1199640743", att: 6, skuA: "1203402526" }
+    ]
+  },
+  {
+    id: "inv_rn17pm", model: "REDMI NOTE 17 PRO MAX", cat: "phone",
+    variants: [
+      { color: "NEGRO", telcel: 0, skuT: "-", libre: 0, skuL: "-", att: 0, skuA: "-" },
+      { color: "MORADO", telcel: 7, skuT: "1210261172", libre: 0, skuL: "-", att: 0, skuA: "-" },
+      { color: "BLANCO", telcel: 8, skuT: "1210261164", libre: 0, skuL: "-", att: 0, skuA: "-" }
+    ]
+  },
+  {
+    id: "inv_rn17p", model: "REDMI NOTE 17 PRO 5G", cat: "phone",
+    variants: [
+      { color: "AZUL", telcel: 0, skuT: "1210007314", libre: 0, skuL: "1207415274", att: 0, skuA: "-" },
+      { color: "NEGRO", telcel: 0, skuT: "-", libre: 13, skuL: "1207415266", att: 0, skuA: "-" },
+      { color: "MORADO", telcel: 0, skuT: "1210014221", libre: 0, skuL: "1207415282", att: 0, skuA: "-" }
+    ]
+  },
+  {
+    id: "inv_rn17", model: "REDMI NOTE 17", cat: "phone",
+    variants: [
+      { color: "AZUL", telcel: 6, skuT: "1209863428", libre: 0, skuL: "1207415410", att: 0, skuA: "-" },
+      { color: "NEGRO", telcel: 11, skuT: "1209815814", libre: 2, skuL: "1207415622", att: 7, skuA: "1210261440" },
+      { color: "VIOLETA", telcel: 1, skuT: "1209863436", libre: 0, skuL: "1207415631", att: 6, skuA: "1210261458" }
+    ]
+  },
+  {
+    id: "inv_r17", model: "REDMI 17", cat: "phone",
+    variants: [
+      { color: "NEGRO", telcel: 9, skuT: "1209886037", libre: 12, skuL: "1207006196", att: 17, skuA: "1208054356" },
+      { color: "VERDE", telcel: 8, skuT: "1209886053", libre: 11, skuL: "1207006188", att: 15, skuA: "1208054364" },
+      { color: "AZUL", telcel: 9, skuT: "1209886045", libre: 9, skuL: "1207006170", att: 0, skuA: "-" }
+    ]
+  },
+  {
+    id: "inv_ra7p", model: "REDMI A7 PRO 128GB", cat: "phone",
+    variants: [
+      { color: "NEGRO", telcel: 0, skuT: "1204490381", libre: 5, skuL: "1199977187", att: 2, skuA: "1204812272" },
+      { color: "VERDE", telcel: 3, skuT: "1204490402", libre: 8, skuL: "1199977195", att: 0, skuA: "-" },
+      { color: "AZUL", telcel: 0, skuT: "1204490399", libre: 0, skuL: "-", att: 5, skuA: "1204812281" }
+    ]
+  },
+  {
+    id: "inv_buds8p", model: "REDMI BUDS 8 PRO", cat: "aiot",
+    variants: [
+      { color: "AZUL CLARO", qty: 4, sku: "1196971463" },
+      { color: "BLANCO", qty: 5, sku: "1196971455" },
+      { color: "NEGRO", qty: 8, sku: "1196971447" }
+    ]
+  },
+  {
+    id: "inv_buds8l", model: "REDMI BUDS 8 LITE", cat: "aiot",
+    variants: [
+      { color: "AZUL", qty: 0, sku: "-" },
+      { color: "BLANCO", qty: 35, sku: "1192479149" },
+      { color: "NEGRO", qty: 75, sku: "1192479131" }
+    ]
+  },
+  {
+    id: "inv_rw6", model: "REDMI WATCH 6", cat: "aiot",
+    variants: [
+      { color: "AZUL CLARO", qty: 0, sku: "-" },
+      { color: "BLANCO", qty: 0, sku: "-" },
+      { color: "NEGRO", qty: 0, sku: "-" }
+    ]
+  },
+  {
+    id: "inv_rw6l", model: "REDMI WATCH 6 LITE 50MM", cat: "aiot",
+    variants: [
+      { color: "GRIS", qty: 57, sku: "1206133186" },
+      { color: "NEGRO", qty: 38, sku: "1206133194" }
+    ]
+  },
+  {
+    id: "inv_ws5", model: "XIAOMI WATCH S5 46MM", cat: "aiot",
+    variants: [
+      { color: "NEGRO", qty: 5, sku: "1200266257" },
+      { color: "VERDE", qty: 1, sku: "1200216624" }
+    ]
+  }
+];
+
+const INITIAL_SALES = {
+  "1": { "x17tp": { L: 0, C: 1 }, "rn17p": { L: 0, C: 2 }, "rn17": { L: 0, C: 1 }, "aiot_rw6": { L: 27 }, "aiot_rw6l": { L: 3 }, "aiot_ws5": { L: 1 }, "aiot_buds8p": { L: 3 }, "aiot_buds8l": { L: 6 } },
+  "2": { "rn17pm": { L: 0, C: 1 }, "rn17p": { L: 0, C: 1 }, "rn17": { L: 0, C: 1 } },
+  "3": { "rn17p": { L: 0, C: 1 } },
+  "4": { "x17tp": { L: 0, C: 1 } },
+  "6": { "rn17p": { L: 1, C: 0 }, "rn17": { L: 1, C: 0 }, "ra7p": { L: 0, C: 2 } },
+  "7": { "x17tp": { L: 0, C: 5 }, "x17t": { L: 1, C: 2 }, "rn17pm": { L: 0, C: 2 }, "rn17p": { L: 1, C: 0 }, "ra7p": { L: 0, C: 1 } },
+  "8": { "x17tp": { L: 2, C: 3 }, "rn17p": { L: 2, C: 2 }, "rn17": { L: 0, C: 4 }, "r17": { L: 0, C: 1 }, "ra7p": { L: 0, C: 1 } },
+  "9": { "x17tp": { L: 0, C: 1 }, "x17t": { L: 1, C: 0 }, "rn17p": { L: 1, C: 0 }, "rn17": { L: 0, C: 1 }, "ra7p": { L: 1, C: 0 } },
+  "10": { "x17tp": { L: 0, C: 1 }, "x17t": { L: 1, C: 1 }, "rn17p": { L: 1, C: 1 }, "rn17": { L: 0, C: 1 }, "ra7p": { L: 1, C: 0 } },
+  "11": { "x17t": { L: 1, C: 0 }, "rn17pm": { L: 0, C: 1 }, "rn17p": { L: 2, C: 1 }, "rn17": { L: 1, C: 0 }, "ra7p": { L: 1, C: 0 } },
+  "13": { "x17tp": { L: 1, C: 2 }, "x17t": { L: 3, C: 3 }, "rn17pm": { L: 0, C: 1 }, "rn17p": { L: 3, C: 3 }, "rn17": { L: 1, C: 3 }, "ra7p": { L: 3, C: 0 } },
+  "14": { "x17tp": { L: 4, C: 2 }, "x17t": { L: 5, C: 3 }, "rn17pm": { L: 0, C: 3 }, "rn17p": { L: 2, C: 2 }, "rn17": { L: 9, C: 2 } },
+  "15": { "x17tp": { L: 0, C: 4 }, "x17t": { L: 0, C: 1 }, "rn17pm": { L: 0, C: 4 }, "rn17p": { L: 0, C: 9 }, "rn17": { L: 0, C: 3 } },
+  "16": { "x17tp": { L: 0, C: 10 }, "x17t": { L: 0, C: 3 }, "rn17p": { L: 0, C: 6 }, "rn17": { L: 0, C: 5 }, "r17": { L: 0, C: 2 } },
+  "17": { "x17tp": { L: 0, C: 4 }, "x17t": { L: 0, C: 2 }, "rn17pm": { L: 0, C: 3 }, "rn17p": { L: 0, C: 2 }, "rn17": { L: 0, C: 2 }, "r17": { L: 1, C: 0 } },
+  "18": { "rn17pm": { L: 0, C: 5 }, "rn17p": { L: 1, C: 0 } }
+};
+
+const DEFAULT_REACH_SCALE = {
+  "10": 1.0,
+  "20": 1.0,
+  "30": 1.0,
+  "40": 1.0,
+  "50": 1.0,
+  "60": 1.0,
+  "70": 1.0,
+  "80": 1.0,
+  "90": 1.0,
+  "100": 1.2,
+  "110": 1.2,
+  "120": 1.3,
+  "130": 1.5
+};
+
+let state = {
+  calYear: 2026,
+  calMonth: 11, // 0=Ene ... 10=Nov, 11=Dic
+  selectedDay: 1,
+  filter: "all",
+  invFilter: "all",
+  quota: 82,
+  chain: "liverpool",
+  padFactor: 1.5,
+  calcMode: "reach",
+  minUnlockPct: 90,
+  applyCap150: true,
+  prioritizeHighComm: true,
+  unitsFactor: 1.0,
+  reachScale: { ...DEFAULT_REACH_SCALE },
+  customRates: {},
+  customPrices: {},
+  customModels: [],
+  hiddenModels: [],
+  sales: JSON.parse(JSON.stringify(INITIAL_SALES)),
+  inventory: JSON.parse(JSON.stringify(INITIAL_INVENTORY))
+};
+
+const MONTH_NAMES = [
+  "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+  "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+];
+const MONTH_SHORT = [
+  "Ene", "Feb", "Mar", "Abr", "May", "Jun",
+  "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"
+];
+const WEEKDAY_SHORT = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"];
+
+function getDaysInMonth(year, monthIndex) {
+  return new Date(Number(year), Number(monthIndex) + 1, 0).getDate();
+}
+
+function getMonthKey(year = state.calYear, monthIndex = state.calMonth) {
+  return `${year}-${String(Number(monthIndex) + 1).padStart(2, "0")}`;
+}
+
+function getMonthSales(year = state.calYear, monthIndex = state.calMonth) {
+  const key = getMonthKey(year, monthIndex);
+  if (!state.salesByMonth) state.salesByMonth = {};
+  if (!state.salesByMonth[key]) {
+    if (key === "2026-11") {
+      state.salesByMonth[key] = JSON.parse(JSON.stringify(INITIAL_SALES));
+    } else {
+      state.salesByMonth[key] = {};
+    }
+  }
+  return state.salesByMonth[key];
+}
+
+function syncLegacySales() {
+  state.sales = getMonthSales(state.calYear, state.calMonth);
+}
+
+function changeCalendarMonth(yearVal, monthVal) {
+  state.calYear = Number(yearVal) || 2026;
+  state.calMonth = Math.max(0, Math.min(11, Number(monthVal)));
+  const maxD = getDaysInMonth(state.calYear, state.calMonth);
+  if (state.selectedDay > maxD) state.selectedDay = maxD;
+  if (state.selectedDay < 1) state.selectedDay = 1;
+  syncLegacySales();
+  saveState();
+  renderAll(true);
+}
+
+function loadState() {
+  try {
+    const saved = localStorage.getItem("xiaomi_inc_nov26_v6");
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      state = { ...state, ...parsed };
+    } else if (window.__EMBEDDED_STATE__) {
+      state = { ...state, ...window.__EMBEDDED_STATE__ };
+    }
+    if (state.calYear === undefined) state.calYear = 2026;
+    if (state.calMonth === undefined) state.calMonth = 10; // Nov 2026 default
+    if (!state.salesByMonth) state.salesByMonth = {};
+    if (!state.salesByMonth["2026-11"] && state.sales) {
+      state.salesByMonth["2026-11"] = state.sales;
+    }
+    state.sales = getMonthSales(state.calYear, state.calMonth);
+    const maxD = getDaysInMonth(state.calYear, state.calMonth);
+    if (state.selectedDay > maxD) state.selectedDay = maxD;
+    if (state.selectedDay < 1) state.selectedDay = 1;
+    if (!state.inventory) state.inventory = JSON.parse(JSON.stringify(INITIAL_INVENTORY));
+    if (!state.customModels) state.customModels = [];
+    if (!state.customPrices) state.customPrices = {};
+    if (!state.hiddenModels) state.hiddenModels = [];
+    if (!state.calcMode) state.calcMode = "reach";
+    if (state.minUnlockPct === undefined) state.minUnlockPct = 90;
+    if (state.applyCap150 === undefined) state.applyCap150 = true;
+    if (state.prioritizeHighComm === undefined) state.prioritizeHighComm = true;
+    if (state.unitsFactor === undefined) state.unitsFactor = 1.0;
+    if (!state.reachScale) state.reachScale = { ...DEFAULT_REACH_SCALE };
+  } catch (e) {
+    if (window.__EMBEDDED_STATE__) {
+      state = { ...state, ...window.__EMBEDDED_STATE__ };
+    }
+  }
+  // Detect WhatsApp / in-app WebView
+  const ua = navigator.userAgent || "";
+  if (/WhatsApp|FBAN|FBAV|Instagram|wv/i.test(ua)) {
+    const b = document.getElementById("wvBanner");
+    if (b) b.style.display = "block";
+  }
+}
+
+function saveState() {
+  try {
+    localStorage.setItem("xiaomi_inc_nov26_v6", JSON.stringify(state));
+  } catch (e) {}
+}
+
+function getFactor(reachPct) {
+  const minPct = Number(state.minUnlockPct !== undefined ? state.minUnlockPct : 90);
+  if (reachPct < minPct) return 0;
+  if (state.calcMode === "units") {
+    return Number(state.unitsFactor !== undefined ? state.unitsFactor : 1.0);
+  }
+  const scale = state.reachScale || DEFAULT_REACH_SCALE;
+  if (reachPct < 10) return Number(scale["10"] !== undefined ? scale["10"] : 1.0);
+  const step = Math.min(130, Math.floor(reachPct / 10) * 10);
+  return Number(scale[String(step)] !== undefined ? scale[String(step)] : 1.0);
+}
+
+function getModelPrice(m) {
+  const ov = state.customPrices && state.customPrices[m.id];
+  return ov !== undefined ? ov : (m.price || 0);
+}
+
+
+function openAddPhoneTicketModal() {
+  document.getElementById("aptName").value = "";
+  document.getElementById("aptPrice").value = "";
+  document.getElementById("aptRateL").value = "";
+  document.getElementById("aptRateC").value = "";
+  document.getElementById("addPhoneTicketModal").classList.add("open");
+}
+
+function savePhoneFromTicketModal() {
+  const name = document.getElementById("aptName").value.trim();
+  if (!name) {
+    alert("Escribe el nombre del teléfono.");
+    return;
+  }
+  const price = Math.max(0, Number(document.getElementById("aptPrice").value) || 0);
+  const baseL = Math.max(0, Number(document.getElementById("aptRateL").value) || 0);
+  const baseC = Math.max(0, Number(document.getElementById("aptRateC").value) || 0);
+  const newPhone = {
+    id: "custom_" + Date.now(),
+    name,
+    cat: "phone",
+    price,
+    inQuota: true,
+    capped: true,
+    baseL,
+    baseC,
+    isCustom: true
+  };
+  if (!state.customModels) state.customModels = [];
+  state.customModels.unshift(newPhone);
+  saveState();
+  document.getElementById("addPhoneTicketModal").classList.remove("open");
+  renderAll(true);
+}
+
+function toggleRemovePhonePanel() {
+  const panel = document.getElementById("removePhonePanel");
+  const sel = document.getElementById("selRemovePhone");
+  if (!panel || !sel) return;
+  const phones = getAllCatalog().filter(m => m.cat === "phone");
+  sel.innerHTML = phones.map(p => `<option value="${p.id}">${p.name}</option>`).join("");
+  panel.style.display = panel.style.display === "none" ? "block" : "none";
+}
+
+function confirmRemoveSelectedPhone() {
+  const sel = document.getElementById("selRemovePhone");
+  if (!sel || !sel.value) return;
+  const id = sel.value;
+  const m = [...CATALOG, ...(state.customModels || [])].find(x => x.id === id);
+  if (!m) return;
+  if (!confirm(`¿Quitar "${m.name}" de la lista de teléfonos?`)) return;
+  if (m.isCustom) {
+    state.customModels = (state.customModels || []).filter(x => x.id !== id);
+    delete state.customRates[id];
+    if (state.customPrices) delete state.customPrices[id];
+  } else {
+    if (!state.hiddenModels) state.hiddenModels = [];
+    if (!state.hiddenModels.includes(id)) state.hiddenModels.push(id);
+  }
+  saveState();
+  document.getElementById("removePhonePanel").style.display = "none";
+  renderAll(true);
+}
+
+function renderTicketTab(res) {
+  const r = res || computeUpToDay(getDaysInMonth(state.calYear, state.calMonth));
+  const elM = document.getElementById("tpMontoTotal");
+  const elP = document.getElementById("tpPromedioEq");
+  const elZ = document.getElementById("tpTotalPzas");
+  const elSub = document.getElementById("tpCuotaSub");
+  if (elM) elM.textContent = fmt(r.ticketPhonesMonto);
+  if (elP) elP.textContent = fmt(r.avgTicket);
+  if (elZ) elZ.textContent = r.totalPhoneUnitsAll;
+  if (elSub) {
+    const noCuota = Math.max(0, r.totalPhoneUnitsAll - r.quotaUnits);
+    elSub.textContent = noCuota > 0 ? `${r.quotaUnits} cuota + ${noCuota} sin cuota` : `${r.quotaUnits} de cuota`;
+  }
+
+  const elAiotP = document.getElementById("tpAiotPzas");
+  const elAiotM = document.getElementById("tpAiotMonto");
+  const elAiotI = document.getElementById("tpAiotInc");
+  const elAiotBadge = document.getElementById("tpAiotSummaryBadge");
+  if (elAiotP) elAiotP.textContent = r.totalAiotUnitsAll;
+  if (elAiotM) elAiotM.textContent = fmt(r.ticketAiotMonto);
+  if (elAiotI) elAiotI.textContent = fmt(r.aiotPay);
+  if (elAiotBadge) elAiotBadge.textContent = `${r.totalAiotUnitsAll} pzas • ${fmt(r.ticketAiotMonto)}`;
+
+  const agg = {};
+  for (let d = 1; d <= getDaysInMonth(state.calYear, state.calMonth); d++) {
+    const ds = state.sales[String(d)] || {};
+    for (const [id, q] of Object.entries(ds)) {
+      if (!agg[id]) agg[id] = { L: 0, C: 0 };
+      agg[id].L += (q.L || 0);
+      agg[id].C += (q.C || 0);
+    }
+  }
+
+  const query = (document.getElementById("tpSearchBox")?.value || "").trim().toLowerCase();
+  const tbody = document.getElementById("tbodyTicketTab");
+  if (tbody) {
+    const phones = getAllCatalog().filter(m => m.cat === "phone" && (!query || m.name.toLowerCase().includes(query)));
+    let html = "";
+    for (const m of phones) {
+      const q = agg[m.id] || { L: 0, C: 0 };
+      const qty = (q.L || 0) + (q.C || 0);
+      const price = getModelPrice(m);
+      const monto = qty * price;
+      html += `
+        <tr class="${qty > 0 ? "highlight-row" : ""}">
+          <td><strong>${m.name}</strong></td>
+          <td class="num">${qty}</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--green);" type="number" value="${price}" onchange="updatePrice('${m.id}',this.value)" /></td>
+          <td class="num green"><strong>${fmt(monto)}</strong></td>
+        </tr>
+      `;
+    }
+    tbody.innerHTML = html || `<tr><td colspan="4" style="text-align:center;color:var(--muted);">No hay teléfonos que coincidan.</td></tr>`;
+  }
+
+  const tbodyAiot = document.getElementById("tbodyTicketAiot");
+  if (tbodyAiot) {
+    const aiots = getAllCatalog().filter(m => m.cat === "aiot");
+    let aHtml = "";
+    for (const m of aiots) {
+      const q = agg[m.id] || { L: 0, C: 0 };
+      const qty = (q.L || 0) + (q.C || 0);
+      if (qty === 0 && getModelPrice(m) === 0) continue;
+      const price = getModelPrice(m);
+      const monto = qty * price;
+      aHtml += `
+        <tr class="${qty > 0 ? "highlight-row" : ""}">
+          <td><strong>${m.name}</strong></td>
+          <td class="num">${qty}</td>
+          <td class="num"><input class="rate-input" style="width:72px;color:var(--blue);" type="number" value="${price}" onchange="updatePrice('${m.id}',this.value)" /></td>
+          <td class="num blue"><strong>${fmt(monto)}</strong></td>
+        </tr>
+      `;
+    }
+    tbodyAiot.innerHTML = aHtml || `<tr><td colspan="4" style="text-align:center;color:var(--muted);">Sin equipos AIOT registrados.</td></tr>`;
+  }
+}
+
+function updatePrice(id, val) {
+  if (!state.customPrices) state.customPrices = {};
+  state.customPrices[id] = Math.max(0, Number(val) || 0);
+  saveState();
+  renderAll();
+}
+
+function getModelRates(m) {
+  const ov = state.customRates[m.id] || {};
+  if (m.cat === "phone") {
+    return { L: ov.L !== undefined ? ov.L : m.baseL, C: ov.C !== undefined ? ov.C : m.baseC };
+  }
+  if (m.cat === "pad") {
+    return { L: ov.L !== undefined ? ov.L : m.baseL, C: 0 };
+  }
+  const chainVal = m.chains[state.chain] || 0;
+  return { L: ov.L !== undefined ? ov.L : chainVal, C: 0 };
+}
+
+function computeUpToDay(maxDay) {
+  let quotaUnits = 0;
+  const agg = {};
+  const daysInCalMonth = getDaysInMonth(state.calYear, state.calMonth);
+  const limitDay = Math.min(maxDay, daysInCalMonth);
+  for (let d = 1; d <= limitDay; d++) {
+    const ds = state.sales[String(d)] || {};
+    for (const [id, q] of Object.entries(ds)) {
+      if (!agg[id]) agg[id] = { L: 0, C: 0 };
+      agg[id].L += (q.L || 0);
+      agg[id].C += (q.C || 0);
+    }
+  }
+
+  for (const m of getAllCatalog()) {
+    if (m.cat === "phone" && m.inQuota && agg[m.id]) {
+      quotaUnits += agg[m.id].L + agg[m.id].C;
+    }
+  }
+
+  const reachPct = state.quota > 0 ? Math.round((quotaUnits / state.quota) * 100) : 0;
+  const factor = getFactor(reachPct);
+  const capLimit = Math.floor(state.quota * 1.5);
+
+  const cappedEntries = [];
+  let uncappedPhonePay = 0;
+  let padPay = 0;
+  let aiotPay = 0;
+  let brutoTotal = 0;
+  let ticketPhonesMonto = 0;
+  let ticketTotalMonto = 0;
+  let totalSoldUnitsAll = 0;
+  const ticketByModel = [];
+
+  const useHighCommPriority = state.prioritizeHighComm !== false;
+
+  for (const m of getAllCatalog()) {
+    const q = agg[m.id] || { L: 0, C: 0 };
+    if (q.L === 0 && q.C === 0) continue;
+    const rates = getModelRates(m);
+
+    if (m.cat === "phone") {
+      const payUnitL = Math.round(rates.L * factor);
+      const payUnitC = Math.round(rates.C * factor);
+      brutoTotal += q.L * payUnitL + q.C * payUnitC;
+
+      if (m.capped) {
+        if (useHighCommPriority) {
+          if (q.L > 0 && payUnitL > 0) cappedEntries.push({ name: m.name + " (Libre)", qty: q.L, rate: payUnitL });
+          if (q.C > 0 && payUnitC > 0) cappedEntries.push({ name: m.name + " (Carrier)", qty: q.C, rate: payUnitC });
+        }
+      } else {
+        uncappedPhonePay += q.L * payUnitL + q.C * payUnitC;
+      }
+    } else if (m.cat === "pad") {
+      const payUnit = Math.round(rates.L * state.padFactor);
+      const sub = q.L * payUnit;
+      padPay += sub;
+      brutoTotal += sub;
+    } else if (m.cat === "aiot") {
+      const sub = q.L * rates.L;
+      aiotPay += sub;
+      brutoTotal += sub;
+    }
+  }
+
+  if (!useHighCommPriority) {
+    // Orden cronológico (primeras piezas vendidas del día 1 al 31 llenan el tope; no reemplaza por mayor comisión)
+    const chronoMap = new Map();
+    const catMap = new Map(getAllCatalog().map(m => [m.id, m]));
+    for (let d = 1; d <= limitDay; d++) {
+      const ds = state.sales[String(d)] || {};
+      for (const [id, q] of Object.entries(ds)) {
+        const m = catMap.get(id);
+        if (!m || m.cat !== "phone" || !m.capped) continue;
+        const rates = getModelRates(m);
+        const payUnitL = Math.round(rates.L * factor);
+        const payUnitC = Math.round(rates.C * factor);
+        if ((q.L || 0) > 0 && payUnitL > 0) {
+          const keyL = id + "_L";
+          if (!chronoMap.has(keyL)) chronoMap.set(keyL, { name: m.name + " (Libre)", qty: 0, rate: payUnitL, firstDay: d });
+          chronoMap.get(keyL).qty += q.L;
+        }
+        if ((q.C || 0) > 0 && payUnitC > 0) {
+          const keyC = id + "_C";
+          if (!chronoMap.has(keyC)) chronoMap.set(keyC, { name: m.name + " (Carrier)", qty: 0, rate: payUnitC, firstDay: d });
+          chronoMap.get(keyC).qty += q.C;
+        }
+      }
+    }
+    for (const entry of chronoMap.values()) cappedEntries.push(entry);
+  }
+
+  let totalPhoneUnitsAll = 0;
+  let totalAiotUnitsAll = 0;
+  let ticketAiotMonto = 0;
+  for (const m of getAllCatalog()) {
+    const q = agg[m.id] || { L: 0, C: 0 };
+    const totU = (q.L || 0) + (q.C || 0);
+    if (totU === 0) continue;
+    totalSoldUnitsAll += totU;
+    const unitVal = getModelPrice(m);
+    const modelMonto = totU * unitVal;
+    ticketTotalMonto += modelMonto;
+    if (m.cat === "phone") {
+      ticketPhonesMonto += modelMonto;
+      totalPhoneUnitsAll += totU;
+    } else if (m.cat === "aiot") {
+      ticketAiotMonto += modelMonto;
+      totalAiotUnitsAll += totU;
+    }
+    ticketByModel.push({ id: m.id, name: m.name, cat: m.cat, qty: totU, unitVal, monto: modelMonto });
+  }
+
+  if (useHighCommPriority) cappedEntries.sort((a, b) => b.rate - a.rate);
+  const useCap = state.applyCap150 !== false;
+  let remaining = useCap ? capLimit : Infinity;
+  let cappedPhonePay = 0;
+  for (const item of cappedEntries) {
+    const paid = useCap ? Math.min(item.qty, remaining) : item.qty;
+    item.paid = paid;
+    item.total = paid * item.rate;
+    cappedPhonePay += item.total;
+    if (useCap) remaining -= paid;
+  }
+
+  const phoneReal = cappedPhonePay + uncappedPhonePay;
+  const grandReal = phoneReal + padPay + aiotPay;
+
+  const avgTicket = totalPhoneUnitsAll > 0 ? Math.round(ticketPhonesMonto / totalPhoneUnitsAll) : 0;
+  return {
+    quotaUnits, reachPct, factor, capLimit,
+    cappedEntries, phoneReal, padPay, aiotPay,
+    grandReal, brutoTotal,
+    ticketPhonesMonto, ticketAiotMonto, ticketTotalMonto,
+    totalPhoneUnitsAll, totalAiotUnitsAll, totalSoldUnitsAll, avgTicket, ticketByModel
+  };
+}
+
+function fmt(n) {
+  return "$" + Math.round(n).toLocaleString("es-MX");
+}
+
+function triggerPop(elId) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  el.classList.remove("pop");
+  void el.offsetWidth;
+  el.classList.add("pop");
+}
+
+function togglePrioritizeHighComm(checked) {
+  state.prioritizeHighComm = !!checked;
+  saveState();
+  renderAll(true);
+}
+
+function renderAll(animateHero = false) {
+  const res = computeUpToDay(getDaysInMonth(state.calYear, state.calMonth));
+  const modeLabel = state.calcMode === "units" ? "Por Piezas" : `Alcance ${res.reachPct}%`;
+  const minTxt = Number(state.minUnlockPct) > 0 ? ` • Mín ${state.minUnlockPct}%` : "";
+  const mShort = MONTH_SHORT[state.calMonth] || "Dic";
+  document.getElementById("subHeader").textContent = `${mShort} ${state.calYear} • ${modeLabel} (F${res.factor}${minTxt})`;
+  const mSel = document.getElementById("selCalMonth");
+  const ySel = document.getElementById("selCalYear");
+  const mBadge = document.getElementById("calMonthBadge");
+  if (mSel) mSel.value = String(state.calMonth);
+  if (ySel) ySel.value = String(state.calYear);
+  if (mBadge) mBadge.textContent = `${mShort} ${state.calYear} • ${getDaysInMonth(state.calYear, state.calMonth)} días`;
+  document.getElementById("heroTotal").textContent = fmt(res.grandReal);
+  if (animateHero) triggerPop("heroTotal");
+  document.getElementById("heroBreakdown").textContent = `Celulares: ${fmt(res.phoneReal)} • PAD: ${fmt(res.padPay)} • AIOT: ${fmt(res.aiotPay)}`;
+  document.getElementById("statCap").textContent = state.applyCap150 !== false ? `${state.quota} / ${res.capLimit} pzas` : `${state.quota} / Sin tope`;
+  document.getElementById("statSold").textContent = `${res.quotaUnits} pzas (${res.reachPct}%)`;
+  document.getElementById("statBruto").textContent = fmt(res.brutoTotal);
+  const elTM = document.getElementById("heroTicketMonto");
+  if (elTM) elTM.textContent = fmt(res.ticketPhonesMonto);
+  const elTA = document.getElementById("heroTicketAvg");
+  if (elTA) elTA.textContent = fmt(res.avgTicket);
+  const elTP = document.getElementById("statTicketAiot");
+  if (elTP) elTP.textContent = `${fmt(res.ticketAiotMonto)} (${res.totalAiotUnitsAll} pz)`;
+  document.getElementById("lblCapCount").textContent = `${res.capLimit} pzas`;
+  const chkPrio = document.getElementById("chkPrioritizeHighComm");
+  const descPrio = document.getElementById("lblPriorityModeDesc");
+  const subTope = document.getElementById("lblTopeSubtitle");
+  const isPrio = state.prioritizeHighComm !== false;
+  if (chkPrio) chkPrio.checked = isPrio;
+  if (descPrio) {
+    descPrio.textContent = isPrio
+      ? "Activado: las piezas de mayor comisión desplazan a las de menor comisión."
+      : "Desactivado: se pagan en orden cronológico (las primeras vendidas del mes).";
+  }
+  if (subTope) {
+    subTope.innerHTML = isPrio
+      ? `Ordenado de mayor a menor comisión dentro del límite máximo del 150% (<strong id="lblCapCount" style="color:#fff;">${res.capLimit} pzas</strong>).`
+      : `Ordenado por fecha de venta (cronológico) dentro del límite máximo del 150% (<strong id="lblCapCount" style="color:#fff;">${res.capLimit} pzas</strong>).`;
+  }
+  const pillAll = document.getElementById("pillAllCount");
+  if (pillAll) pillAll.textContent = `Todos (${getAllCatalog().length})`;
+
+  renderDaysStrip();
+  renderProducts();
+  renderAcumuladoTable();
+  renderInventory();
+  renderTicketTab(res);
+  renderTopeTable(res);
+  renderRatesTable();
+}
+
+function renderDaysStrip() {
+  const wrap = document.getElementById("daysStrip");
+  const totalDays = getDaysInMonth(state.calYear, state.calMonth);
+  let html = "";
+  for (let d = 1; d <= totalDays; d++) {
+    const ds = state.sales[String(d)] || {};
+    let cnt = 0;
+    for (const q of Object.values(ds)) cnt += (q.L || 0) + (q.C || 0);
+    const wDay = WEEKDAY_SHORT[new Date(state.calYear, state.calMonth, d).getDay()];
+    const cls = `day-pill ${d === state.selectedDay ? "active" : ""} ${cnt > 0 ? "has-sales" : ""}`;
+    const hasTkt = (dayTicketsCache[String(d)] || []).length > 0;
+    html += `<div class="${cls}" onclick="selectDay(${d})"><span style="font-size:9px;opacity:0.75;font-weight:700;">${wDay}</span><span class="d-num">${d}${hasTkt ? "•" : ""}</span><span class="d-cnt">${cnt > 0 ? cnt + " pz" : "-"}</span></div>`;
+  }
+  wrap.innerHTML = html;
+}
+
+function selectDay(d) {
+  state.selectedDay = Number(d);
+  saveState();
+  renderDaysStrip();
+  renderProducts();
+}
+
+function setFilter(f, btn) {
+  state.filter = f;
+  document.querySelectorAll("#tab-diario .cat-pill").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  renderProducts();
+}
+
+function changeQty(id, channel, delta) {
+  const dk = String(state.selectedDay);
+  if (!state.sales[dk]) state.sales[dk] = {};
+  if (!state.sales[dk][id]) state.sales[dk][id] = { L: 0, C: 0 };
+  const cur = state.sales[dk][id][channel] || 0;
+  state.sales[dk][id][channel] = Math.max(0, cur + delta);
+  if (state.sales[dk][id].L === 0 && state.sales[dk][id].C === 0) {
+    delete state.sales[dk][id];
+  }
+  saveState();
+  renderAll(true);
+}
+
+function renderProducts() {
+  const res = computeUpToDay(getDaysInMonth(state.calYear, state.calMonth));
+  const dk = String(state.selectedDay);
+  const ds = state.sales[dk] || {};
+  let dayCount = 0;
+  for (const q of Object.values(ds)) dayCount += (q.L || 0) + (q.C || 0);
+
+  const wName = WEEKDAY_SHORT[new Date(state.calYear, state.calMonth, state.selectedDay).getDay()];
+  const mFull = MONTH_NAMES[state.calMonth] || "Diciembre";
+  document.getElementById("dayTitle").textContent = `${wName} ${state.selectedDay} de ${mFull} ${state.calYear}`;
+  document.getElementById("daySummary").textContent = `${dayCount} piezas registradas hoy`;
+  renderDayTickets();
+
+  const query = document.getElementById("searchBox").value.trim().toLowerCase();
+  const list = document.getElementById("productsList");
+  let html = "";
+
+  for (const m of getAllCatalog()) {
+    const q = ds[m.id] || { L: 0, C: 0 };
+    const totalToday = q.L + q.C;
+
+    if (state.filter === "today" && totalToday === 0) continue;
+    if (state.filter !== "all" && state.filter !== "today" && m.cat !== state.filter) continue;
+    if (query && !m.name.toLowerCase().includes(query)) continue;
+
+    const rates = getModelRates(m);
+    let badge = "Smartphone";
+    let rateInfo = `Libre: ${fmt(rates.L * res.factor)} • Carrier: ${fmt(rates.C * res.factor)}`;
+    if (m.cat === "pad") {
+      badge = "PAD / Tablet";
+      rateInfo = `Incentivo Regional: ${fmt(rates.L * state.padFactor)} c/u`;
+    } else if (m.cat === "aiot") {
+      badge = `AIOT (${state.chain.toUpperCase()})`;
+      rateInfo = rates.L > 0 ? `Bono directo: ${fmt(rates.L)} c/u` : "Sin bono en esta cadena";
+    }
+
+    html += `
+      <div class="prod-card ${totalToday > 0 ? "active-sale" : ""}">
+        <div class="prod-top">
+          <div>
+            <div class="prod-name">${m.name}</div>
+            <div class="prod-rates">${rateInfo}</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:5px;">
+            <span class="prod-badge">${badge}</span>
+            <button type="button" onclick="removeCatalogModel('${m.id}', ${!!m.isCustom})" style="background:rgba(239,68,68,0.14);border:1px solid rgba(239,68,68,0.35);color:#EF4444;border-radius:6px;padding:2px 6px;font-size:10px;font-weight:800;cursor:pointer;" title="Quitar equipo de mi tienda">✕</button>
+          </div>
+        </div>
+        ${m.cat === "phone" ? `
+          <div class="steppers">
+            <div class="stepper-box">
+              <span class="stepper-lbl">LIBRE</span>
+              <div class="stepper-ctrl">
+                <button type="button" class="btn-step" onclick="changeQty('${m.id}','L',-1)">−</button>
+                <span class="step-val">${q.L}</span>
+                <button type="button" class="btn-step plus" onclick="changeQty('${m.id}','L',1)">+</button>
+              </div>
+            </div>
+            <div class="stepper-box">
+              <span class="stepper-lbl">CARRIER</span>
+              <div class="stepper-ctrl">
+                <button type="button" class="btn-step" onclick="changeQty('${m.id}','C',-1)">−</button>
+                <span class="step-val">${q.C}</span>
+                <button type="button" class="btn-step plus" onclick="changeQty('${m.id}','C',1)">+</button>
+              </div>
+            </div>
+          </div>
+        ` : `
+          <div class="steppers single">
+            <div class="stepper-box">
+              <span class="stepper-lbl">PIEZAS VENDIDAS</span>
+              <div class="stepper-ctrl">
+                <button type="button" class="btn-step" onclick="changeQty('${m.id}','L',-1)">−</button>
+                <span class="step-val">${q.L}</span>
+                <button type="button" class="btn-step plus" onclick="changeQty('${m.id}','L',1)">+</button>
+              </div>
+            </div>
+          </div>
+        `}
+      </div>
+    `;
+  }
+
+  list.innerHTML = html || `<p style="text-align:center;color:var(--muted);padding:24px 0;font-size:13px;">No hay equipos que coincidan con este filtro.</p>`;
+}
+
+function renderAcumuladoTable() {
+  const tbody = document.getElementById("tbodyAcumulado");
+  const totalDays = getDaysInMonth(state.calYear, state.calMonth);
+  let html = "";
+  for (let d = 1; d <= totalDays; d++) {
+    const ds = state.sales[String(d)] || {};
+    let dayPz = 0;
+    for (const q of Object.values(ds)) dayPz += (q.L || 0) + (q.C || 0);
+    const cum = computeUpToDay(d);
+    html += `
+      <tr class="${dayPz > 0 ? "highlight-row" : ""}" onclick="selectDay(${d});switchTab('diario',document.querySelector('.tab-btn'))" style="cursor:pointer;">
+        <td><strong>Día ${d}</strong></td>
+        <td class="num">${dayPz > 0 ? "+" + dayPz : "-"}</td>
+        <td class="num">${cum.quotaUnits} / ${state.quota}</td>
+        <td class="num ${cum.reachPct >= 90 ? "green" : ""}">${cum.reachPct}%</td>
+        <td class="num orange"><strong>${fmt(cum.grandReal)}</strong></td>
+      </tr>
+    `;
+  }
+  tbody.innerHTML = html;
+
+  const finalRes = computeUpToDay(getDaysInMonth(state.calYear, state.calMonth));
+  const badgeEl = document.getElementById("acumTicketTotalBadge");
+  if (badgeEl) badgeEl.textContent = fmt(finalRes.ticketTotalMonto);
+  const tBodyTickets = document.getElementById("tbodyTicketModels");
+  if (tBodyTickets) {
+    let tHtml = "";
+    for (const item of finalRes.ticketByModel) {
+      tHtml += `
+        <tr>
+          <td>${item.name}</td>
+          <td class="num">${item.qty}</td>
+          <td class="num">${fmt(item.unitVal)}</td>
+          <td class="num green"><strong>${fmt(item.monto)}</strong></td>
+        </tr>
+      `;
+    }
+    tBodyTickets.innerHTML = tHtml || `<tr><td colspan="4" style="text-align:center;color:var(--muted);">Sin ventas registradas</td></tr>`;
+  }
+}
+
+/* INVENTORY LOGIC */
+function setInvFilter(f, btn) {
+  state.invFilter = f;
+  document.querySelectorAll("#tab-inventario .cat-pill").forEach(b => b.classList.remove("active"));
+  btn.classList.add("active");
+  renderInventory();
+}
+
+function changeInvStock(modelId, varIdx, field, delta) {
+  const item = state.inventory.find(x => x.id === modelId);
+  if (!item) return;
+  const v = item.variants[varIdx];
+  v[field] = Math.max(0, (v[field] || 0) + delta);
+  saveState();
+  renderInventory();
+}
+
+function renderInventory() {
+  let totPhones = 0, totAiot = 0;
+  let tTelcel = 0, tLibre = 0, tAtt = 0;
+  for (const item of state.inventory) {
+    for (const v of item.variants) {
+      if (item.cat === "phone") {
+        const pSum = (v.telcel || 0) + (v.libre || 0) + (v.att || 0);
+        totPhones += pSum;
+        tTelcel += (v.telcel || 0);
+        tLibre += (v.libre || 0);
+        tAtt += (v.att || 0);
+      } else {
+        totAiot += (v.qty || 0);
+      }
+    }
+  }
+  document.getElementById("invTotalPhones").textContent = totPhones;
+  document.getElementById("invTotalAiot").textContent = totAiot;
+  document.getElementById("invPhonesSub").textContent = `Telcel: ${tTelcel} • Libre: ${tLibre} • AT&T: ${tAtt}`;
+
+  const query = (document.getElementById("invSearchBox")?.value || "").trim().toLowerCase();
+  const container = document.getElementById("inventoryList");
+
+  let phoneHtml = "";
+  let aiotHtml = "";
+  let phoneCount = 0;
+  let aiotCount = 0;
+
+  for (const item of state.inventory) {
+    if (state.invFilter === "phone" && item.cat !== "phone") continue;
+    if (state.invFilter === "aiot" && item.cat !== "aiot") continue;
+
+    let modelTotal = 0;
+    for (const v of item.variants) {
+      modelTotal += item.cat === "phone" ? ((v.telcel || 0) + (v.libre || 0) + (v.att || 0)) : (v.qty || 0);
+    }
+    if (state.invFilter === "low" && modelTotal > 5) continue;
+
+    if (query) {
+      const matchModel = item.model.toLowerCase().includes(query);
+      const matchVar = item.variants.some(v =>
+        v.color.toLowerCase().includes(query) ||
+        String(v.skuT || "").includes(query) ||
+        String(v.skuL || "").includes(query) ||
+        String(v.skuA || "").includes(query) ||
+        String(v.sku || "").includes(query)
+      );
+      if (!matchModel && !matchVar) continue;
+    }
+
+    const cardHtml = `
+      <div class="inv-model-card">
+        <div class="inv-model-head">
+          <div>
+            <strong style="font-size:13px;">${item.model}</strong>
+            <span style="display:block;font-size:10px;color:var(--muted);">${item.cat === "phone" ? "Smartphone Carrier / Libre" : "Ecosistema AIOT"}</span>
+          </div>
+          <div style="display:flex;gap:5px;align-items:center;">
+            <button type="button" onclick="openEditSkuModal('${item.id}')" style="background:var(--card2);border:1px solid var(--border);color:var(--orange);padding:4px 8px;border-radius:6px;font-size:10px;font-weight:800;cursor:pointer;">⚙️ SKUs</button>
+            <span class="prod-badge" style="color:var(--orange);border:1px solid rgba(255,105,0,0.35);">${modelTotal} pzas</span>
+            <button type="button" onclick="deleteInventoryItem('${item.id}')" style="background:rgba(239,68,68,0.16);border:1px solid rgba(239,68,68,0.4);color:#EF4444;border-radius:6px;padding:4px 7px;font-size:10px;font-weight:800;cursor:pointer;" title="Quitar equipo del inventario">✕</button>
+          </div>
+        </div>
+        ${item.variants.map((v, idx) => {
+          if (item.cat === "phone") {
+            const rowSum = (v.telcel || 0) + (v.libre || 0) + (v.att || 0);
+            return `
+              <div class="inv-color-row">
+                <div class="inv-color-top">
+                  <strong style="font-size:12px;">${v.color}</strong>
+                  <span style="font-size:11px;color:${rowSum === 0 ? "var(--red)" : "var(--green)"};font-weight:700;">${rowSum} disp.</span>
+                </div>
+                <div class="inv-channels">
+                  <div class="inv-ch-box">
+                    <div class="inv-ch-head"><span>TELCEL</span></div>
+                    <div class="inv-ctrl">
+                      <button type="button" class="btn-inv" onclick="changeInvStock('${item.id}',${idx},'telcel',-1)">−</button>
+                      <strong style="font-size:13px;">${v.telcel || 0}</strong>
+                      <button type="button" class="btn-inv plus" onclick="changeInvStock('${item.id}',${idx},'telcel',1)">+</button>
+                    </div>
+                    <span class="inv-sku">${v.skuT !== "-" ? v.skuT : "Sin SKU"}</span>
+                  </div>
+                  <div class="inv-ch-box">
+                    <div class="inv-ch-head"><span>LIBRE</span></div>
+                    <div class="inv-ctrl">
+                      <button type="button" class="btn-inv" onclick="changeInvStock('${item.id}',${idx},'libre',-1)">−</button>
+                      <strong style="font-size:13px;">${v.libre || 0}</strong>
+                      <button type="button" class="btn-inv plus" onclick="changeInvStock('${item.id}',${idx},'libre',1)">+</button>
+                    </div>
+                    <span class="inv-sku">${v.skuL !== "-" ? v.skuL : "Sin SKU"}</span>
+                  </div>
+                  <div class="inv-ch-box">
+                    <div class="inv-ch-head"><span>AT&amp;T</span></div>
+                    <div class="inv-ctrl">
+                      <button type="button" class="btn-inv" onclick="changeInvStock('${item.id}',${idx},'att',-1)">−</button>
+                      <strong style="font-size:13px;">${v.att || 0}</strong>
+                      <button type="button" class="btn-inv plus" onclick="changeInvStock('${item.id}',${idx},'att',1)">+</button>
+                    </div>
+                    <span class="inv-sku">${v.skuA !== "-" ? v.skuA : "Sin SKU"}</span>
+                  </div>
+                </div>
+              </div>
+            `;
+          } else {
+            return `
+              <div class="inv-color-row">
+                <div class="inv-color-top" style="margin-bottom:0;">
+                  <div>
+                    <strong style="font-size:12px;">${v.color}</strong>
+                    <span style="display:block;font-family:monospace;font-size:10px;color:var(--muted);">SKU: ${v.sku}</span>
+                  </div>
+                  <div class="stepper-ctrl">
+                    <button type="button" class="btn-inv" onclick="changeInvStock('${item.id}',${idx},'qty',-1)">−</button>
+                    <strong style="min-width:24px;text-align:center;font-size:14px;color:${(v.qty || 0) === 0 ? "var(--red)" : "#fff"};">${v.qty || 0}</strong>
+                    <button type="button" class="btn-inv plus" onclick="changeInvStock('${item.id}',${idx},'qty',1)">+</button>
+                  </div>
+                </div>
+              </div>
+            `;
+          }
+        }).join("")}
+      </div>
+    `;
+
+    if (item.cat === "phone") {
+      phoneHtml += cardHtml;
+      phoneCount++;
+    } else {
+      aiotHtml += cardHtml;
+      aiotCount++;
+    }
+  }
+
+  let finalHtml = "";
+  if (phoneHtml && state.invFilter !== "aiot") {
+    finalHtml += `
+      <div style="margin-bottom:14px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;background:var(--card2);padding:10px 12px;border-radius:10px;border-left:4px solid var(--orange);margin-bottom:10px;">
+          <strong style="font-size:13px;color:#fff;">📱 Inventario de Teléfonos / Smartphones</strong>
+          <span style="font-size:11px;color:var(--orange);font-weight:700;">${phoneCount} modelos</span>
+        </div>
+        ${phoneHtml}
+      </div>
+    `;
+  }
+
+  if (aiotHtml && state.invFilter !== "phone") {
+    finalHtml += `
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;background:var(--card2);padding:10px 12px;border-radius:10px;border-left:4px solid var(--blue);margin-bottom:10px;margin-top:16px;">
+          <strong style="font-size:13px;color:#fff;">⌚ Inventario de Ecosistema AIOT (Relojes, Buds, Cámaras)</strong>
+          <span style="font-size:11px;color:var(--blue);font-weight:700;">${aiotCount} modelos</span>
+        </div>
+        ${aiotHtml}
+      </div>
+    `;
+  }
+
+  container.innerHTML = finalHtml || `<p style="text-align:center;color:var(--muted);padding:24px 0;font-size:13px;">No se encontraron equipos en el inventario.</p>`;
+}
+
+function renderTopeTable(res) {
+  const tbody = document.getElementById("tbodyTope");
+  let html = "";
+  for (const item of res.cappedEntries) {
+    const cut = item.qty - item.paid;
+    html += `
+      <tr>
+        <td>${item.name} ${cut > 0 ? `<span style="color:var(--muted);font-size:10px;">(${cut} fuera de límite)</span>` : ""}</td>
+        <td class="num">${fmt(item.rate)}</td>
+        <td class="num">${item.qty}</td>
+        <td class="num orange"><strong>${item.paid}</strong></td>
+        <td class="num"><strong>${fmt(item.total)}</strong></td>
+      </tr>
+    `;
+  }
+  tbody.innerHTML = html || `<tr><td colspan="5" style="text-align:center;color:var(--muted);">Sin equipos en tope</td></tr>`;
+}
+
+function renderRatesTable() {
+  const tbody = document.getElementById("tbodyRates");
+  let html = "";
+  for (const m of getAllCatalog()) {
+    const r = getModelRates(m);
+    const delBtn = `<button type="button" onclick="removeCatalogModel('${m.id}', ${!!m.isCustom})" style="margin-left:6px;background:rgba(239,68,68,0.18);border:1px solid rgba(239,68,68,0.45);color:#EF4444;border-radius:5px;padding:1px 6px;font-size:10px;font-weight:800;cursor:pointer;" title="Quitar equipo de mi tienda">✕</button>`;
+    const tag = m.isCustom ? `<span style="display:inline-block;margin-left:5px;font-size:9px;background:var(--orange-soft);color:var(--orange);padding:1px 5px;border-radius:4px;font-weight:700;">NUEVO</span>` : "";
+    const pVal = getModelPrice(m);
+    html += `
+      <tr>
+        <td>${m.name}${tag}${delBtn}</td>
+        <td class="num"><input class="rate-input" style="width:66px;color:var(--green);" type="number" value="${pVal}" onchange="updatePrice('${m.id}',this.value)" /></td>
+        <td class="num"><input class="rate-input" type="number" value="${r.L}" onchange="updateRate('${m.id}','L',this.value)" /></td>
+        <td class="num">${m.cat === "phone" ? `<input class="rate-input" type="number" value="${r.C}" onchange="updateRate('${m.id}','C',this.value)" />` : "-"}</td>
+      </tr>
+    `;
+  }
+  const hiddenCount = (state.hiddenModels || []).length;
+  const restoreBox = document.getElementById("restoreHiddenBox");
+  if (restoreBox) {
+    restoreBox.style.display = hiddenCount > 0 ? "block" : "none";
+    const lbl = document.getElementById("hiddenCountLbl");
+    if (lbl) lbl.textContent = hiddenCount;
+  }
+  tbody.innerHTML = html;
+}
+
+function updateRate(id, ch, val) {
+  if (!state.customRates[id]) state.customRates[id] = {};
+  state.customRates[id][ch] = Math.max(0, Number(val) || 0);
+  saveState();
+  renderAll();
+}
+
+function updateSettings() {
+  state.quota = Math.max(1, Number(document.getElementById("inpQuota").value) || 82);
+  state.chain = document.getElementById("selChain").value;
+  state.padFactor = Number(document.getElementById("selPadReach").value);
+  const cmEl = document.getElementById("selCalcMode");
+  if (cmEl) state.calcMode = cmEl.value;
+  const muEl = document.getElementById("selMinUnlock");
+  if (muEl) state.minUnlockPct = Number(muEl.value);
+  saveState();
+  renderAll(true);
+}
+
+function toggleCalModeHint() {
+  const mode = document.getElementById("calModeModal").value;
+  document.getElementById("calUnitsRow").style.display = mode === "units" ? "block" : "none";
+}
+
+function renderCalibrateTable() {
+  const tbody = document.getElementById("tbodyCalibrateScale");
+  if (!tbody) return;
+  const minUnlock = Number(document.getElementById("calMinUnlockModal").value);
+  const scale = state.reachScale || DEFAULT_REACH_SCALE;
+  let rows = "";
+  for (let pct = 10; pct <= 130; pct += 10) {
+    const reqUnits = Math.ceil((state.quota * pct) / 100);
+    const val = scale[String(pct)] !== undefined ? scale[String(pct)] : 1.0;
+    const locked = pct < minUnlock;
+    const labelPct = pct === 130 ? "≥ 130%" : `${pct}% – ${pct + 9}%`;
+    rows += `
+      <tr class="${locked ? "" : "highlight-row"}" style="${locked ? "opacity:0.55;" : ""}">
+        <td><strong>${labelPct}</strong> ${locked ? '<span style="font-size:9px;color:var(--red);">(Bloqueado)</span>' : ""}</td>
+        <td class="num">${reqUnits} pzas</td>
+        <td class="num">
+          <input type="number" step="0.1" min="0" class="rate-input cal-scale-inp" data-pct="${pct}" value="${val}" style="width:62px;color:${locked ? "var(--muted)" : "var(--orange)"};" />
+        </td>
+      </tr>
+    `;
+  }
+  tbody.innerHTML = rows;
+}
+
+function openCalibrateModal() {
+  document.getElementById("calModeModal").value = state.calcMode || "reach";
+  document.getElementById("calMinUnlockModal").value = String(state.minUnlockPct !== undefined ? state.minUnlockPct : 90);
+  document.getElementById("calUnitsFactor").value = state.unitsFactor !== undefined ? state.unitsFactor : 1.0;
+  document.getElementById("calApplyCap").checked = state.applyCap150 !== false;
+  document.getElementById("calPrioritizeHigh").checked = state.prioritizeHighComm !== false;
+  document.getElementById("calMinUnlockModal").onchange = renderCalibrateTable;
+  toggleCalModeHint();
+  renderCalibrateTable();
+  document.getElementById("calibrateModal").classList.add("open");
+}
+
+function resetCalibrationScale() {
+  state.reachScale = { ...DEFAULT_REACH_SCALE };
+  document.getElementById("calMinUnlockModal").value = "90";
+  document.getElementById("calModeModal").value = "reach";
+  document.getElementById("calUnitsFactor").value = "1";
+  document.getElementById("calApplyCap").checked = true;
+  document.getElementById("calPrioritizeHigh").checked = true;
+  toggleCalModeHint();
+  renderCalibrateTable();
+}
+
+function saveCalibrationModal() {
+  state.calcMode = document.getElementById("calModeModal").value;
+  state.minUnlockPct = Number(document.getElementById("calMinUnlockModal").value);
+  state.unitsFactor = Math.max(0, Number(document.getElementById("calUnitsFactor").value) || 0);
+  state.applyCap150 = document.getElementById("calApplyCap").checked;
+  state.prioritizeHighComm = document.getElementById("calPrioritizeHigh").checked;
+
+  const newScale = {};
+  document.querySelectorAll(".cal-scale-inp").forEach(inp => {
+    const pct = inp.getAttribute("data-pct");
+    newScale[pct] = Math.max(0, Number(inp.value) || 0);
+  });
+  state.reachScale = newScale;
+
+  const cmEl = document.getElementById("selCalcMode");
+  if (cmEl) cmEl.value = state.calcMode;
+  const muEl = document.getElementById("selMinUnlock");
+  if (muEl) muEl.value = String(state.minUnlockPct);
+
+  saveState();
+  document.getElementById("calibrateModal").classList.remove("open");
+  renderAll(true);
+}
+
+function switchTab(name, btn) {
+  ["diario", "acumulado", "ticket", "inventario", "tope", "tabulador"].forEach(t => {
+    const el = document.getElementById("tab-" + t);
+    if (t === name) {
+      el.style.display = "block";
+      el.classList.remove("anim-enter");
+      void el.offsetWidth;
+      el.classList.add("anim-enter");
+    } else {
+      el.style.display = "none";
+    }
+  });
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  if (btn) btn.classList.add("active");
+}
+
+
+
+let currentEditingInvId = null;
+
+function buildVariantSkuCardHTML(cat, defaultColor = "NEGRO") {
+  return `
+    <div class="ni-var-row" style="background:var(--card2);border:1px solid var(--border);border-radius:9px;padding:8px;margin-bottom:7px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:6px;">
+        <input type="text" class="ni-color-inp" value="${defaultColor}" placeholder="Color (ej. NEGRO)" style="background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px 8px;border-radius:6px;font-size:12px;font-weight:700;width:72%;" />
+        <button type="button" onclick="this.closest('.ni-var-row').remove()" style="background:rgba(239,68,68,0.2);color:#EF4444;border:none;border-radius:6px;padding:4px 8px;font-size:10px;font-weight:800;cursor:pointer;">Quitar</button>
+      </div>
+      ${cat === "phone" ? `
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;font-size:10px;">
+          <div>
+            <label style="color:var(--muted);display:block;margin-bottom:2px;">SKU Telcel</label>
+            <input type="text" class="ni-sku-t" placeholder="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px;border-radius:5px;font-size:11px;font-family:monospace;" />
+          </div>
+          <div>
+            <label style="color:var(--muted);display:block;margin-bottom:2px;">SKU Libre</label>
+            <input type="text" class="ni-sku-l" placeholder="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px;border-radius:5px;font-size:11px;font-family:monospace;" />
+          </div>
+          <div>
+            <label style="color:var(--muted);display:block;margin-bottom:2px;">SKU AT&T</label>
+            <input type="text" class="ni-sku-a" placeholder="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px;border-radius:5px;font-size:11px;font-family:monospace;" />
+          </div>
+        </div>
+      ` : `
+        <div>
+          <label style="color:var(--muted);font-size:10px;display:block;margin-bottom:2px;">Código SKU</label>
+          <input type="text" class="ni-sku-aiot" placeholder="Ej. 1200266257" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px 7px;border-radius:5px;font-size:12px;font-family:monospace;" />
+        </div>
+      `}
+    </div>
+  `;
+}
+
+function extractVariantsFromContainer(containerId, cat) {
+  const rows = document.querySelectorAll(`#${containerId} .ni-var-row`);
+  const variants = [];
+  rows.forEach(row => {
+    const color = (row.querySelector(".ni-color-inp")?.value || "").trim().toUpperCase() || "ÚNICO";
+    if (cat === "phone") {
+      variants.push({
+        color,
+        telcel: 0,
+        skuT: (row.querySelector(".ni-sku-t")?.value || "").trim() || "-",
+        libre: 0,
+        skuL: (row.querySelector(".ni-sku-l")?.value || "").trim() || "-",
+        att: 0,
+        skuA: (row.querySelector(".ni-sku-a")?.value || "").trim() || "-"
+      });
+    } else {
+      variants.push({
+        color,
+        qty: 0,
+        sku: (row.querySelector(".ni-sku-aiot")?.value || "").trim() || "-"
+      });
+    }
+  });
+  if (!variants.length) {
+    return cat === "phone"
+      ? [{ color: "NEGRO", telcel: 0, skuT: "-", libre: 0, skuL: "-", att: 0, skuA: "-" }]
+      : [{ color: "NEGRO", qty: 0, sku: "-" }];
+  }
+  return variants;
+}
+
+function renderNewInvVariantsBuilder() {
+  const cat = document.getElementById("niCat").value;
+  document.getElementById("niVariantsContainer").innerHTML = buildVariantSkuCardHTML(cat, "NEGRO");
+}
+
+function addNewInvVariantRow() {
+  const cat = document.getElementById("niCat").value;
+  document.getElementById("niVariantsContainer").insertAdjacentHTML("beforeend", buildVariantSkuCardHTML(cat, "AZUL"));
+}
+
+function openNewInventoryModal() {
+  document.getElementById("niName").value = "";
+  document.getElementById("niCat").value = "phone";
+  renderNewInvVariantsBuilder();
+  document.getElementById("newInvModal").classList.add("open");
+}
+
+function saveNewInventoryItem() {
+  const name = document.getElementById("niName").value.trim();
+  if (!name) {
+    alert("Escribe el nombre del modelo.");
+    return;
+  }
+  const cat = document.getElementById("niCat").value;
+  const variants = extractVariantsFromContainer("niVariantsContainer", cat);
+
+  const newItem = {
+    id: "inv_custom_" + Date.now(),
+    model: name.toUpperCase(),
+    cat,
+    variants
+  };
+
+  if (!state.inventory) state.inventory = [];
+  state.inventory.unshift(newItem);
+  saveState();
+  document.getElementById("newInvModal").classList.remove("open");
+  renderInventory();
+}
+
+function deleteInventoryItem(invId) {
+  const item = state.inventory.find(x => x.id === invId);
+  if (!item) return;
+  if (!confirm(`¿Quitar "${item.model}" de tu inventario?`)) return;
+  state.inventory = state.inventory.filter(x => x.id !== invId);
+  saveState();
+  renderInventory();
+}
+
+function openEditSkuModal(invId) {
+  currentEditingInvId = invId;
+  const item = state.inventory.find(x => x.id === invId);
+  if (!item) return;
+
+  document.getElementById("skuModalTitle").textContent = `SKUs y Colores: ${item.model}`;
+  document.getElementById("skuModalSub").textContent = `Modifica los códigos SKU o agrega variantes de color.`;
+
+  let bodyHtml = "";
+  item.variants.forEach((v, idx) => {
+    bodyHtml += `
+      <div style="background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px;margin-bottom:8px;" data-var-idx="${idx}">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+          <input type="text" class="sku-color-inp" value="${v.color}" placeholder="Color" style="background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px 8px;border-radius:6px;font-size:12px;font-weight:700;width:70%;" />
+          <button type="button" onclick="this.closest('[data-var-idx]').remove()" style="background:rgba(239,68,68,0.2);color:#EF4444;border:none;border-radius:6px;padding:4px 8px;font-size:11px;font-weight:bold;cursor:pointer;">Eliminar</button>
+        </div>
+        ${item.cat === "phone" ? `
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;font-size:10px;">
+            <div>
+              <label style="color:var(--muted);">SKU Telcel</label>
+              <input type="text" class="sku-val-t" value="${v.skuT || "-"}" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:4px;border-radius:5px;font-size:11px;font-family:monospace;" />
+            </div>
+            <div>
+              <label style="color:var(--muted);">SKU Libre</label>
+              <input type="text" class="sku-val-l" value="${v.skuL || "-"}" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:4px;border-radius:5px;font-size:11px;font-family:monospace;" />
+            </div>
+            <div>
+              <label style="color:var(--muted);">SKU AT&T</label>
+              <input type="text" class="sku-val-a" value="${v.skuA || "-"}" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:4px;border-radius:5px;font-size:11px;font-family:monospace;" />
+            </div>
+          </div>
+        ` : `
+          <div>
+            <label style="color:var(--muted);font-size:10px;">SKU AIOT</label>
+            <input type="text" class="sku-val-aiot" value="${v.sku || "-"}" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px;border-radius:5px;font-size:12px;font-family:monospace;" />
+          </div>
+        `}
+      </div>
+    `;
+  });
+
+  bodyHtml += `
+    <button type="button" class="btn-secondary" onclick="addVariantRowInModal('${item.cat}')" style="margin-top:6px;">+ Agregar Otro Color</button>
+  `;
+
+  document.getElementById("skuModalBody").innerHTML = bodyHtml;
+  document.getElementById("editSkuModal").classList.add("open");
+}
+
+function addVariantRowInModal(cat) {
+  const container = document.getElementById("skuModalBody");
+  const newIdx = container.querySelectorAll("[data-var-idx]").length;
+  const div = document.createElement("div");
+  div.className = "sku-row-wrap";
+  div.setAttribute("data-var-idx", newIdx);
+  div.style.cssText = "background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px;margin-bottom:8px;";
+
+  div.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+      <input type="text" class="sku-color-inp" value="NUEVO COLOR" placeholder="Color" style="background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px 8px;border-radius:6px;font-size:12px;font-weight:700;width:70%;" />
+      <button type="button" onclick="this.closest('[data-var-idx]').remove()" style="background:rgba(239,68,68,0.2);color:#EF4444;border:none;border-radius:6px;padding:4px 8px;font-size:11px;font-weight:bold;cursor:pointer;">Eliminar</button>
+    </div>
+    ${cat === "phone" ? `
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;font-size:10px;">
+        <div>
+          <label style="color:var(--muted);">SKU Telcel</label>
+          <input type="text" class="sku-val-t" value="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:4px;border-radius:5px;font-size:11px;font-family:monospace;" />
+        </div>
+        <div>
+          <label style="color:var(--muted);">SKU Libre</label>
+          <input type="text" class="sku-val-l" value="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:4px;border-radius:5px;font-size:11px;font-family:monospace;" />
+        </div>
+        <div>
+          <label style="color:var(--muted);">SKU AT&T</label>
+          <input type="text" class="sku-val-a" value="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:4px;border-radius:5px;font-size:11px;font-family:monospace;" />
+        </div>
+      </div>
+    ` : `
+      <div>
+        <label style="color:var(--muted);font-size:10px;">SKU AIOT</label>
+        <input type="text" class="sku-val-aiot" value="-" style="width:100%;background:var(--bg);border:1px solid var(--border);color:#fff;padding:5px;border-radius:5px;font-size:12px;font-family:monospace;" />
+      </div>
+    `}
+  `;
+  container.insertBefore(div, container.lastElementChild);
+}
+
+function saveSkuEdits() {
+  const item = state.inventory.find(x => x.id === currentEditingInvId);
+  if (!item) return;
+
+  const rows = document.querySelectorAll("#skuModalBody [data-var-idx]");
+  const newVariants = [];
+
+  rows.forEach(row => {
+    const color = row.querySelector(".sku-color-inp").value.trim().toUpperCase() || "ÚNICO";
+    if (item.cat === "phone") {
+      const oldVar = item.variants.find(v => v.color === color) || {};
+      newVariants.push({
+        color,
+        telcel: oldVar.telcel || 0,
+        skuT: row.querySelector(".sku-val-t").value.trim() || "-",
+        libre: oldVar.libre || 0,
+        skuL: row.querySelector(".sku-val-l").value.trim() || "-",
+        att: oldVar.att || 0,
+        skuA: row.querySelector(".sku-val-a").value.trim() || "-"
+      });
+    } else {
+      const oldVar = item.variants.find(v => v.color === color) || {};
+      newVariants.push({
+        color,
+        qty: oldVar.qty || 0,
+        sku: row.querySelector(".sku-val-aiot").value.trim() || "-"
+      });
+    }
+  });
+
+  item.variants = newVariants;
+  saveState();
+  document.getElementById("editSkuModal").classList.remove("open");
+  renderInventory();
+}
+
+function renderNdVariantsBuilder() {
+  const cat = document.getElementById("ndCat").value === "phone" ? "phone" : "aiot";
+  document.getElementById("ndVariantsContainer").innerHTML = buildVariantSkuCardHTML(cat, "NEGRO");
+}
+
+function addNdVariantRow() {
+  const cat = document.getElementById("ndCat").value === "phone" ? "phone" : "aiot";
+  document.getElementById("ndVariantsContainer").insertAdjacentHTML("beforeend", buildVariantSkuCardHTML(cat, "AZUL"));
+}
+
+function openNewDeviceModal() {
+  document.getElementById("ndName").value = "";
+  document.getElementById("ndPrice").value = "";
+  document.getElementById("ndRateL").value = "";
+  document.getElementById("ndRateC").value = "";
+  document.getElementById("ndRateSingle").value = "";
+  document.getElementById("ndCat").value = "phone";
+  document.getElementById("ndInQuota").checked = true;
+  document.getElementById("ndCapped").checked = true;
+  document.getElementById("ndAddToInv").checked = false;
+  document.getElementById("ndInvExtra").style.display = "none";
+  toggleNewDeviceFields();
+  document.getElementById("newDeviceModal").classList.add("open");
+}
+
+function toggleNewDeviceFields() {
+  const cat = document.getElementById("ndCat").value;
+  const phoneBox = document.getElementById("ndPhoneFields");
+  const singleBox = document.getElementById("ndSingleRateField");
+  const singleLbl = document.getElementById("ndSingleRateLabel");
+  const singleHint = document.getElementById("ndSingleHint");
+
+  if (cat === "phone") {
+    phoneBox.style.display = "block";
+    singleBox.style.display = "none";
+  } else {
+    phoneBox.style.display = "none";
+    singleBox.style.display = "block";
+    if (cat === "aiot") {
+      singleLbl.textContent = "Bono Directo AIOT por Pieza ($)";
+      singleHint.textContent = "Se suma directo al incentivo AIOT (sin depender del tope).";
+    } else {
+      singleLbl.textContent = "Incentivo Base PAD / Tablet (Factor 1.0)";
+      singleHint.textContent = "Se multiplicará por el factor de Alcance PAD Regional seleccionado.";
+    }
+  }
+  renderNdVariantsBuilder();
+}
+
+function saveNewDevice() {
+  const cat = document.getElementById("ndCat").value;
+  const name = document.getElementById("ndName").value.trim();
+  if (!name) {
+    alert("Escribe el nombre del modelo del equipo.");
+    return;
+  }
+  const id = "custom_" + Date.now();
+  const price = Math.max(0, Number(document.getElementById("ndPrice").value) || 0);
+  let newModel = { id, name, cat, price, isCustom: true };
+
+  if (cat === "phone") {
+    const baseL = Math.max(0, Number(document.getElementById("ndRateL").value) || 0);
+    const baseC = Math.max(0, Number(document.getElementById("ndRateC").value) || 0);
+    newModel.inQuota = document.getElementById("ndInQuota").checked;
+    newModel.capped = document.getElementById("ndCapped").checked;
+    newModel.baseL = baseL;
+    newModel.baseC = baseC;
+  } else if (cat === "aiot") {
+    const bonus = Math.max(0, Number(document.getElementById("ndRateSingle").value) || 0);
+    newModel.chains = { liverpool: bonus, coppel: bonus, telcel: bonus };
+  } else {
+    const baseL = Math.max(0, Number(document.getElementById("ndRateSingle").value) || 0);
+    newModel.baseL = baseL;
+  }
+
+  if (!state.customModels) state.customModels = [];
+  state.customModels.unshift(newModel);
+
+  // Optional: also create entry in Inventory with colors + SKUs
+  if (document.getElementById("ndAddToInv").checked) {
+    const invCat = cat === "phone" ? "phone" : "aiot";
+    const variants = extractVariantsFromContainer("ndVariantsContainer", invCat);
+    state.inventory.unshift({
+      id: "inv_" + id,
+      model: name.toUpperCase(),
+      cat: invCat,
+      variants
+    });
+  }
+
+  saveState();
+  document.getElementById("newDeviceModal").classList.remove("open");
+  renderAll(true);
+}
+
+function removeCatalogModel(id, isCustom) {
+  const m = [...CATALOG, ...(state.customModels || [])].find(x => x.id === id);
+  const label = m ? m.name : "este equipo";
+  if (!confirm(`¿Quitar "${label}" de tu lista de incentivos?`)) return;
+  if (isCustom) {
+    state.customModels = (state.customModels || []).filter(x => x.id !== id);
+    delete state.customRates[id];
+  } else {
+    if (!state.hiddenModels) state.hiddenModels = [];
+    if (!state.hiddenModels.includes(id)) state.hiddenModels.push(id);
+  }
+  saveState();
+  renderAll(true);
+}
+
+function restoreHiddenModels() {
+  state.hiddenModels = [];
+  saveState();
+  renderAll(true);
+}
+
+function openShortcutModal() {
+  document.getElementById("shortcutModal").classList.add("open");
+}
+
+function triggerDownload(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.style.display = "none";
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }, 1500);
+}
+
+function buildPortableHTML() {
+  const clone = document.documentElement.cloneNode(true);
+  const spClone = clone.querySelector("#appSplashScreen");
+  if (spClone) spClone.classList.remove("hidden");
+  // Close any open modals in the exported copy
+  clone.querySelectorAll(".modal-bg").forEach(m => m.classList.remove("open"));
+  // Reset banner to hidden by default in exported copy (loadState will show it if needed)
+  const wv = clone.querySelector("#wvBanner");
+  if (wv) wv.style.display = "none";
+  // Reset tabs to default (diario active) so recipient starts cleanly
+  ["diario", "acumulado", "ticket", "inventario", "tope", "tabulador"].forEach(t => {
+    const el = clone.querySelector("#tab-" + t);
+    if (el) el.style.display = (t === "diario") ? "block" : "none";
+  });
+  clone.querySelectorAll(".tab-btn").forEach((b, idx) => {
+    if (idx === 0) b.classList.add("active");
+    else b.classList.remove("active");
+  });
+  // Clear dynamically populated containers so the recipient's browser renders fresh interactive listeners
+  ["daysStrip", "productsList", "tbodyAcumulado", "inventoryList", "tbodyTope", "tbodyRates"].forEach(id => {
+    const el = clone.querySelector("#" + id);
+    if (el) el.innerHTML = "";
+  });
+  // Remove old snapshot tag if present
+  const oldSnap = clone.querySelector("#embeddedStateSnapshot");
+  if (oldSnap) oldSnap.remove();
+
+  let raw = "<!DOCTYPE html>\n" + clone.outerHTML;
+  const safeStateJson = JSON.stringify(state).replace(/<\/script>/gi, "<\\/script>");
+  const snapshotTag = `<script id="embeddedStateSnapshot">window.__EMBEDDED_STATE__ = ${safeStateJson};<\/script>`;
+  raw = raw.replace("</head>", snapshotTag + "\n</head>");
+  return raw;
+}
+
+function downloadSelfHTML() {
+  const blob = new Blob([buildPortableHTML()], { type: "text/html;charset=utf-8" });
+  triggerDownload(blob, "Calculadora_Incentivos_Xiaomi.html");
+}
+
+function downloadGitHubHTML() {
+  const blob = new Blob([buildPortableHTML()], { type: "text/html;charset=utf-8" });
+  triggerDownload(blob, "index.html");
+}
+
+function getWhatsAppSummaryText() {
+  const res = computeUpToDay(getDaysInMonth(state.calYear, state.calMonth));
+  return `📊 *Incentivos e Inventario Xiaomi*\n• Incentivo Real: *${fmt(res.grandReal)}*\n• Alcance Cuota: *${res.quotaUnits}/${state.quota} pzas (${res.reachPct}%)*\n• Celulares: ${fmt(res.phoneReal)} | PAD: ${fmt(res.padPay)} | AIOT: ${fmt(res.aiotPay)}\n• Ticket Prom. Acumulado (Monto): *${fmt(res.ticketTotalMonto)}* (Prom: ${fmt(res.avgTicket)})\n\n_Nota: Si recibiste el archivo HTML por WhatsApp, tócalo y elige "Abrir con Chrome" o "Safari" para usar todos los botones._`;
+}
+
+function getShareablePageUrl() {
+  const href = window.location.href.split("#")[0];
+  if (href.startsWith("http://") || href.startsWith("https://")) {
+    return href;
+  }
+  return "https://github.com";
+}
+
+function drawSimpleQR(canvas, text) {
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+  const size = canvas.width;
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fillRect(0, 0, size, size);
+
+  // Use external QR image fallback rendered cleanly into canvas if online, plus deterministic matrix fallback
+  const img = new Image();
+  img.crossOrigin = "anonymous";
+  img.onload = () => {
+    ctx.fillStyle = "#FFFFFF";
+    ctx.fillRect(0, 0, size, size);
+    ctx.drawImage(img, 0, 0, size, size);
+  };
+  img.onerror = () => {
+    // Deterministic crisp visual code pattern if offline
+    const modules = 25;
+    const cell = Math.floor(size / modules);
+    const offset = Math.floor((size - cell * modules) / 2);
+    ctx.fillStyle = "#09090B";
+    const drawFinder = (gx, gy) => {
+      ctx.fillRect(offset + gx * cell, offset + gy * cell, 7 * cell, 7 * cell);
+      ctx.fillStyle = "#FFFFFF";
+      ctx.fillRect(offset + (gx + 1) * cell, offset + (gy + 1) * cell, 5 * cell, 5 * cell);
+      ctx.fillStyle = "#09090B";
+      ctx.fillRect(offset + (gx + 2) * cell, offset + (gy + 2) * cell, 3 * cell, 3 * cell);
+    };
+    drawFinder(0, 0);
+    drawFinder(modules - 7, 0);
+    drawFinder(0, modules - 7);
+    let h = 2166136261;
+    for (let i = 0; i < text.length; i++) {
+      h ^= text.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    for (let r = 0; r < modules; r++) {
+      for (let c = 0; c < modules; c++) {
+        if ((r < 8 && c < 8) || (r < 8 && c >= modules - 8) || (r >= modules - 8 && c < 8)) continue;
+        h ^= (r * 31 + c * 17);
+        h = Math.imul(h, 16777619);
+        if ((h >>> 0) % 3 === 0) {
+          ctx.fillRect(offset + c * cell, offset + r * cell, cell, cell);
+        }
+      }
+    }
+  };
+  img.src = "https://api.qrserver.com/v1/create-qr-code/?size=220x220&margin=6&data=" + encodeURIComponent(text);
+}
+
+function shareToWhatsApp() {
+  const url = getShareablePageUrl();
+  const inp = document.getElementById("shareDirectUrlInput");
+  if (inp) inp.value = url;
+  const note = document.getElementById("qrFallbackNote");
+  const isHttp = window.location.href.startsWith("http");
+  if (note) {
+    note.textContent = isHttp
+      ? "Listo para escanear: abre directamente tu página en cualquier celular."
+      : "Sube tu archivo a tiiny.host para generar tu enlace propio y su código QR.";
+  }
+  drawSimpleQR(document.getElementById("shareQrCanvas"), url);
+  document.getElementById("waShareModal").classList.add("open");
+}
+
+async function copyDirectShareLink() {
+  const url = getShareablePageUrl();
+  const btn = document.getElementById("btnCopyDirectLink");
+  try {
+    await navigator.clipboard.writeText(url);
+  } catch (e) {
+    const inp = document.getElementById("shareDirectUrlInput");
+    if (inp) { inp.select(); document.execCommand("copy"); }
+  }
+  if (btn) {
+    const prev = btn.textContent;
+    btn.textContent = "¡Copiado!";
+    btn.style.background = "rgba(16,185,129,0.2)";
+    btn.style.borderColor = "#10B981";
+    btn.style.color = "#10B981";
+    setTimeout(() => {
+      btn.textContent = prev;
+      btn.style.background = "";
+      btn.style.borderColor = "";
+      btn.style.color = "";
+    }, 1800);
+  }
+}
+
+function shareDirectLinkWhatsApp() {
+  const url = getShareablePageUrl();
+  const msg = `📱 *Calculadora de Incentivos e Inventario Xiaomi*
+Abre la app directo desde este enlace:
+${url}`;
+  window.open("https://api.whatsapp.com/send?text=" + encodeURIComponent(msg), "_blank");
+}
+
+async function shareFileNative() {
+  const summaryText = getWhatsAppSummaryText();
+  const htmlContent = buildPortableHTML();
+  try {
+    const file = new File([htmlContent], "Calculadora_Incentivos_Xiaomi.html", { type: "text/html" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        title: "Calculadora Incentivos Xiaomi",
+        text: summaryText,
+        files: [file]
+      });
+      document.getElementById("waShareModal").classList.remove("open");
+      return;
+    }
+  } catch (err) {
+    if (err && err.name === "AbortError") return;
+  }
+  // Fallback if device browser blocks sharing .html directly: download file + inform user
+  downloadSelfHTML();
+  alert("Se descargó el archivo 'Calculadora_Incentivos_Xiaomi.html' con tus datos actualizados. Ahora adjúntalo en tu chat de WhatsApp como Documento.");
+}
+
+function shareTextOnlyWhatsApp() {
+  const summaryText = getWhatsAppSummaryText();
+  const waUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(summaryText);
+  window.open(waUrl, "_blank");
+}
+
+function exportBackup() {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+  triggerDownload(blob, "Respaldo_Ventas_Inventario_Xiaomi.json");
+}
+
+function clearAllSalesZero() {
+  if (!confirm("¿Borrar TODAS las ventas registradas del mes para empezar en 0 piezas?")) return;
+  state.sales = {};
+  if (!state.salesByMonth) state.salesByMonth = {};
+  state.salesByMonth[getMonthKey(state.calYear, state.calMonth)] = {};
+  saveState();
+  renderAll(true);
+}
+
+function clearAllInventoryZero() {
+  if (!confirm("¿Poner en 0 todas las existencias del inventario para empezar desde cero?")) return;
+  for (const item of (state.inventory || [])) {
+    for (const v of (item.variants || [])) {
+      if (item.cat === "phone") {
+        v.telcel = 0;
+        v.libre = 0;
+        v.att = 0;
+      } else {
+        v.qty = 0;
+      }
+    }
+  }
+  saveState();
+  renderInventory();
+}
+
+function resetDefaultData() {
+  if (confirm("¿Restaurar los datos originales de ventas e inventario de Noviembre 2026?")) {
+    localStorage.removeItem("xiaomi_inc_nov26_v6");
+    state.sales = JSON.parse(JSON.stringify(INITIAL_SALES));
+    state.inventory = JSON.parse(JSON.stringify(INITIAL_INVENTORY));
+    state.customRates = {};
+    state.customModels = [];
+    state.hiddenModels = [];
+    state.quota = 82;
+    state.calcMode = "reach";
+    state.minUnlockPct = 90;
+    state.applyCap150 = true;
+    state.unitsFactor = 1.0;
+    state.reachScale = { ...DEFAULT_REACH_SCALE };
+    document.getElementById("inpQuota").value = 82;
+    if (document.getElementById("selCalcMode")) document.getElementById("selCalcMode").value = "reach";
+    if (document.getElementById("selMinUnlock")) document.getElementById("selMinUnlock").value = "90";
+    renderAll(true);
+  }
+}
+
+
+/* ==========================================
+   OPTIONAL TICKET PHOTOS STORAGE (IndexedDB)
+   ========================================== */
+let ticketDB = null;
+let dayTicketsCache = {}; // dayStr -> array of { id, day, model, dataUrl, dateStr }
+
+function initTicketDB() {
+  return new Promise((resolve) => {
+    try {
+      if (!window.indexedDB) { resolve(null); return; }
+      const req = indexedDB.open("XiaomiTicketsDB_v1", 1);
+    req.onupgradeneeded = (e) => {
+      const db = e.target.result;
+      if (!db.objectStoreNames.contains("tickets")) {
+        const store = db.createObjectStore("tickets", { keyPath: "id", autoIncrement: true });
+        store.createIndex("day", "day", { unique: false });
+      }
+    };
+    req.onsuccess = (e) => {
+      ticketDB = e.target.result;
+      loadAllTicketsFromDB().then(resolve);
+    };
+      req.onerror = () => resolve(null);
+    } catch (e) {
+      resolve(null);
+    }
+  });
+}
+
+function loadAllTicketsFromDB() {
+  return new Promise((resolve) => {
+    if (!ticketDB) { resolve(); return; }
+    const tx = ticketDB.transaction("tickets", "readonly");
+    const store = tx.objectStore("tickets");
+    const req = store.getAll();
+    req.onsuccess = () => {
+      dayTicketsCache = {};
+      for (const item of (req.result || [])) {
+        const dk = String(item.day);
+        if (!dayTicketsCache[dk]) dayTicketsCache[dk] = [];
+        dayTicketsCache[dk].push(item);
+      }
+      resolve();
+    };
+    req.onerror = () => resolve();
+  });
+}
+
+function compressImageFile(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      const img = new Image();
+      img.onload = () => {
+        const maxW = 1000;
+        let w = img.width;
+        let h = img.height;
+        if (w > maxW) {
+          h = Math.round((h * maxW) / w);
+          w = maxW;
+        }
+        const canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(img, 0, 0, w, h);
+        resolve(canvas.toDataURL("image/jpeg", 0.74));
+      };
+      img.onerror = reject;
+      img.src = ev.target.result;
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+async function handleTicketUpload(event) {
+  const files = Array.from(event.target.files || []);
+  if (!files.length) return;
+  const dk = String(state.selectedDay);
+  const modelLabel = "Ticket";
+
+  for (const file of files) {
+    try {
+      const dataUrl = await compressImageFile(file);
+      const record = {
+        day: dk,
+        model: modelLabel,
+        dataUrl,
+        time: new Date().toLocaleTimeString("es-MX", { hour: "2-digit", minute: "2-digit" })
+      };
+      if (ticketDB) {
+        await new Promise((res) => {
+          const tx = ticketDB.transaction("tickets", "readwrite");
+          const req = tx.objectStore("tickets").add(record);
+          req.onsuccess = (e) => {
+            record.id = e.target.result;
+            res();
+          };
+          req.onerror = () => res();
+        });
+      } else {
+        record.id = Date.now() + Math.random();
+      }
+      if (!dayTicketsCache[dk]) dayTicketsCache[dk] = [];
+      dayTicketsCache[dk].push(record);
+    } catch (err) {
+      console.error("Error procesando ticket:", err);
+    }
+  }
+  event.target.value = "";
+  renderDaysStrip();
+  renderDayTickets();
+}
+
+async function deleteTicket(id, ev) {
+  ev.stopPropagation();
+  if (!confirm("¿Eliminar esta foto de ticket?")) return;
+  const dk = String(state.selectedDay);
+  if (ticketDB) {
+    await new Promise((res) => {
+      const tx = ticketDB.transaction("tickets", "readwrite");
+      tx.objectStore("tickets").delete(id);
+      tx.oncomplete = res;
+      tx.onerror = res;
+    });
+  }
+  if (dayTicketsCache[dk]) {
+    dayTicketsCache[dk] = dayTicketsCache[dk].filter(t => t.id !== id);
+  }
+  renderDaysStrip();
+  renderDayTickets();
+}
+
+function viewTicketFull(id) {
+  const dk = String(state.selectedDay);
+  const list = dayTicketsCache[dk] || [];
+  const item = list.find(t => t.id === id);
+  if (!item) return;
+  const idx = list.findIndex(t => t.id === id);
+  document.getElementById("ticketModalTitle").textContent = `Ticket #${idx + 1} del Día ${dk}`;
+  document.getElementById("ticketModalSub").textContent = `Día ${dk} de Noviembre • Adjuntado a las ${item.time || ""}`;
+  document.getElementById("ticketModalImg").src = item.dataUrl;
+  document.getElementById("ticketViewModal").classList.add("open");
+}
+
+function renderDayTickets() {
+  const dk = String(state.selectedDay);
+  const list = (dayTicketsCache[dk] || []).filter(t => String(t.day) === dk);
+  const titleEl = document.getElementById("ticketBoxTitle");
+  const btnDayEl = document.getElementById("ticketBtnDay");
+  const lbl = document.getElementById("ticketCountLbl");
+  const grid = document.getElementById("ticketsGrid");
+
+  if (titleEl) titleEl.textContent = `Tickets del Día ${dk} (Opcional)`;
+  if (btnDayEl) btnDayEl.textContent = dk;
+  if (lbl) {
+    lbl.textContent = list.length > 0
+      ? `${list.length} ticket${list.length > 1 ? "s" : ""} exclusivo${list.length > 1 ? "s" : ""} del Día ${dk} • Toca una foto para ampliar`
+      : `0 fotos en el Día ${dk} • Exclusivo de este día (no se mezcla con otros días)`;
+  }
+  if (grid) {
+    if (list.length === 0) {
+      grid.style.display = "none";
+      grid.innerHTML = "";
+    } else {
+      grid.style.display = "grid";
+      grid.innerHTML = list.map((t, i) => `
+        <div class="ticket-thumb" onclick="viewTicketFull(${t.id})">
+          <img src="${t.dataUrl}" alt="Ticket #${i + 1} Día ${dk}" />
+          <button type="button" class="ticket-del" onclick="deleteTicket(${t.id}, event)" title="Borrar foto">×</button>
+          <div class="ticket-tag">Día ${dk} • #${i + 1}</div>
+        </div>
+      `).join("");
+    }
+  }
+}
+
+
+/* ==========================================
+   PWA MANIFEST & NATIVE INSTALL PROMPT
+   ========================================== */
+let deferredInstallPrompt = null;
+
+function generateAppIconPng(size) {
+  try {
+    const c = document.createElement("canvas");
+    c.width = size;
+    c.height = size;
+    const ctx = c.getContext("2d");
+
+    // Fondo negro mate uniforme (sin borde naranja ni texto "Mi", solo el logotipo oficial naranja de Xiaomi)
+    ctx.fillStyle = "#111114";
+    ctx.fillRect(0, 0, size, size);
+
+    // Logotipo oficial geométrico "MI" de Xiaomi en naranja (#FF6900)
+    const s = size / 100;
+    ctx.fillStyle = "#FF6900";
+    ctx.beginPath();
+    // Barra izquierda y arco superior derecho de la 'M'
+    ctx.moveTo(20 * s, 32 * s);
+    ctx.lineTo(52 * s, 32 * s);
+    ctx.quadraticCurveTo(65 * s, 32 * s, 65 * s, 45 * s);
+    ctx.lineTo(65 * s, 68 * s);
+    ctx.lineTo(55 * s, 68 * s);
+    ctx.lineTo(55 * s, 45.5 * s);
+    ctx.quadraticCurveTo(55 * s, 41 * s, 50.5 * s, 41 * s);
+    ctx.lineTo(30 * s, 41 * s);
+    ctx.lineTo(30 * s, 68 * s);
+    ctx.lineTo(20 * s, 68 * s);
+    ctx.closePath();
+    ctx.fill();
+
+    // Columna central de la 'M'
+    ctx.fillRect(37.5 * s, 48 * s, 10 * s, 20 * s);
+
+    // Columna derecha de la 'I'
+    ctx.fillRect(71 * s, 32 * s, 10 * s, 36 * s);
+
+    return c.toDataURL("image/png");
+  } catch (e) {
+    const iconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#111114"/><path d="M20 32H52C60 32 65 37 65 45V68H55V45.5C55 42.5 53.5 41 50.5 41H30V68H20V32ZM37.5 48H47.5V68H37.5V48ZM71 32H81V68H71V32Z" fill="#FF6900"/></svg>`;
+    return "data:image/svg+xml;base64," + btoa(iconSvg);
+  }
+}
+
+(function setupPWAManifestAndSW() {
+  try {
+    const icon192 = generateAppIconPng(192);
+    const icon512 = generateAppIconPng(512);
+    const appleEl = document.querySelector('link[rel="apple-touch-icon"]');
+    if (appleEl) appleEl.href = icon192;
+
+    const cleanUrl = location.href.split("#")[0].split("?")[0];
+    const baseDir = cleanUrl.endsWith("/") ? cleanUrl : cleanUrl.substring(0, cleanUrl.lastIndexOf("/") + 1);
+    const manifest = {
+      name: "Incentivos e Inventario Xiaomi",
+      short_name: "Incentivos Mi",
+      id: cleanUrl,
+      start_url: cleanUrl,
+      scope: baseDir,
+      display: "standalone",
+      background_color: "#09090B",
+      theme_color: "#FF6900",
+      icons: [
+        { src: icon192, sizes: "192x192", type: "image/png", purpose: "any" },
+        { src: icon512, sizes: "512x512", type: "image/png", purpose: "any maskable" }
+      ]
+    };
+    const manifestBlob = new Blob([JSON.stringify(manifest)], { type: "application/manifest+json" });
+    const manifestEl = document.getElementById("pwaManifest");
+    if (manifestEl) manifestEl.href = URL.createObjectURL(manifestBlob);
+  } catch (e) {}
+})();
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredInstallPrompt = e;
+  const box = document.getElementById("nativeInstallBox");
+  if (box) box.style.display = "block";
+});
+
+async function triggerNativeInstall() {
+  if (!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  await deferredInstallPrompt.userChoice;
+  deferredInstallPrompt = null;
+  const box = document.getElementById("nativeInstallBox");
+  if (box) box.style.display = "none";
+}
+
+function dismissSplashScreen() {
+  const sp = document.getElementById("appSplashScreen");
+  if (sp) sp.classList.add("hidden");
+}
+setTimeout(dismissSplashScreen, 1650);
+
+loadState();
+document.getElementById("inpQuota").value = state.quota;
+document.getElementById("selChain").value = state.chain;
+document.getElementById("selPadReach").value = String(state.padFactor);
+if (document.getElementById("selCalcMode")) document.getElementById("selCalcMode").value = state.calcMode || "reach";
+if (document.getElementById("selMinUnlock")) document.getElementById("selMinUnlock").value = String(state.minUnlockPct !== undefined ? state.minUnlockPct : 90);
+renderAll();
+initTicketDB().then(() => {
+  renderDaysStrip();
+  renderDayTickets();
+});
+</script>
+
+</body></html>
